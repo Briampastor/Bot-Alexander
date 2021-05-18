@@ -144,7 +144,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).join`|`})`, 'g'), (_, name) => replace[name])
-    conn.sendFile(m.chat, 'media.png', '', text.trim(), m)
+    conn . sendFile ( m . chat , 'Bot-Arrow8.jpg' , '' , text . trim (), m )
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
