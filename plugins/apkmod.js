@@ -4,7 +4,7 @@
 let handler = async m => m.reply(`
 〘 APK LIST 𝗠𝗢𝗗 〙
 ❃❃❃❃❃❃❃❃❃❃❃❃❃❃❃
-      Samu330:) *01* 
+      Arrow_OG *01* 
 ❃❃❃❃❃❃❃❃❃❃❃❃❃❃❃
 %readmore
 ➨V2rayNG mod
