@@ -336,12 +336,12 @@ global.dfail = (type, m, conn) => {
     rowner: 'Este comando solo puede ser utilizado por _*OWWNER!1!1!*_',
     owner: 'Este comando solo puede ser utilizado por _*Owner Bot*_!',
     mods: 'Este comando solo puede ser utilizado por _*Moderator*_ !',
-    premium: 'Perintah ini hanya untuk member _*Premium*_ !',
-    group: 'Perintah ini hanya dapat digunakan di grup!',
-    private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
-    admin: 'Perintah ini hanya untuk *Admin* grup!',
-    botAdmin: 'Jadikan bot sebagai *Admin* untuk menggunakan perintah ini!',
-    unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Manusia.16*'
+    premium: 'Este comando es solo para miembros _*Premium*_ !',
+    group: 'Este comando solo se puede usar en grupos!',
+    private: 'Este comando solo se puede usar en chats privados!',
+    admin: 'Este comando es solo para el grupo * Admin *!',
+    botAdmin: 'Haga que el bot * Admin * use este comando!',
+    unreg: 'Regístrese para utilizar esta función escribiendo:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Manusia.16*'
   }[type]
   if (msg) return m.reply(msg)
 }
