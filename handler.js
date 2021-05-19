@@ -194,8 +194,8 @@ module.exports = {
 
 
           if (!isPrems && plugin.limit && global.DATABASE._data.users[m.sender].limit < plugin.limit * 1) {
-            this.reply(m.chat, `Limit anda habis, silahkan beli melalui *${usedPrefix}buy*`, m)
-            continue // Limit habis
+            this.reply(m.chat, `Tu límite ha expirado, por favor compre a través de *${usedPrefix}buy*`, m)
+            continue // Límite vencido
           }
           try {
             await plugin.call(this, m, {
