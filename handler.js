@@ -335,7 +335,7 @@ global.dfail = (type, m, conn) => {
   let msg = {
     rowner: 'Este comando solo puede ser utilizado por _*OWWNER!1!1!*_',
     owner: 'Este comando solo puede ser utilizado por _*Owner Bot*_!',
-    mods: 'Perintah ini hanya dapat digunakan oleh _*Moderator*_ !',
+    mods: 'Este comando solo puede ser utilizado por _*Moderator*_ !',
     premium: 'Perintah ini hanya untuk member _*Premium*_ !',
     group: 'Perintah ini hanya dapat digunakan di grup!',
     private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
