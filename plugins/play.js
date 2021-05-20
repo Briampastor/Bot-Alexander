@@ -21,9 +21,9 @@ let handler = async (m, { conn, command, text, isPrems, isOwner }) => {
   try { if (isVideo) _thumb = { thumbnail: await (await fetch(thumb)).buffer() } }
   catch (e) { }
   if (!isLimit) conn.sendFile(m.chat, dl_link, title + '.mp' + (3 + /2$/.test(command)), `
-*🔥Title:* ${title}
-*📂Filesize:* ${filesizeF}
-*✅Source:* ${vid.url}
+*🔥Título:* ${title}
+*📂Tamaño del archivo:* ${filesizeF}
+*✅Fuente:* ${vid.url}
 `.trim(), m, false, _thumb || {})
 }
 handler.help = ['play', 'play2'].map(v => v + ' <canción >')
