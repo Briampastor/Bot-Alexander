@@ -2,6 +2,9 @@ const { MessageType } = require('@adiwajshing/baileys')
 const { sticker } = require('../lib/sticker')
 let handler  = async (m, { conn, args }) => {
   let stiker = false
+    {
+    await m.reply('✨ *Tu stiker está en progreso...* ✨')
+  }
   try {
     let q = m.quoted ? m.quoted : m
     let mime = (q.msg || q).mimetype || ''
@@ -14,7 +17,7 @@ let handler  = async (m, { conn, args }) => {
     if (stiker) conn.sendMessage(m.chat, stiker, MessageType.sticker, {
       quoted: m
     })
-    else throw 'Conversion failed'
+    else throw 'Etiqueta una foto o video hasta 10 seg'
   }
 }
 handler.help = ['stiker (caption|reply media)', 'stiker <url>', 'stikergif (caption|reply media)', 'stikergif <url>']
