@@ -2,6 +2,7 @@ let fetch = require('node-fetch')
 //plugin by Samu330
 
 let handler  = async (m, { conn, text }) => {
+    {m.reply('⏳Procesando⏳')}
 if (!text) return conn.reply(m.chat, 'No hay texto para buscar imagen', m)
 let url = await fetch('https://api.fdci.se/sosmed/rep.php?gambar=' + encodeURIComponent(text))
 //let url = await fetch('https://api.fdci.se/sosmed/rep.php?gambar=' + encodeURIComponent(text))
