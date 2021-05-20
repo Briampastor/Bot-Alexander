@@ -82,7 +82,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
           if (menu.help) groups[tag].push(menu)
     }
         {
-      conn.sendFile(m.chat, 'hola.opus', '', 'xd', m)
+      conn.sendFile(m.chat, 'Vos del bot.m4a', '', 'xd', m)
 }
     conn.menu = conn.menu ? conn.menu : {}
     let before = conn.menu.before || `
