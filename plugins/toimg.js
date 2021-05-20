@@ -3,6 +3,7 @@ const util = require('util')
 const { MessageType } = require('@adiwajshing/baileys')
 
 let handler  = async (m, { conn }) => {
+  {m.reply('⏳Procesando⏳')}
   if (!m.quoted) return conn.reply(m.chat, 'Tag stikernya!', m)
   let q = { message: { [m.quoted.mtype]: m.quoted }}
   if (/sticker/.test(m.quoted.mtype)) {
