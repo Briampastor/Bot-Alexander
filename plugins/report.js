@@ -7,7 +7,7 @@ let handler = async(m, { conn, text }) => {
     for (let jid of global.owner.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').filter(v => v != conn.user.jid && v != '593987634004@s.whatsapp.net'))
     m.reply(laporan, jid)
     m.reply(laporan, m.sender) // Mwehehehehe
-    m.reply('✔️El problema ha sido informado al propietario,informes falsos no seran respondido a!')
+    m.reply('El problema ha sido informado al propietario con éxito👌,informes falsos no seran respondido a!')
 }
 handler.help = ['bug', 'report'].map(v => v + ' <laporan>')
 handler.tags = ['info']
