@@ -3,6 +3,7 @@ let fetch = require('node-fetch')
 
 let handler  = async (m, { conn, text }) => {
 //let text = args.join` `
+{await m.reply('⏳Procesando⏳')}
 if (!text) return conn.reply(m.chat, 'No hay texto para crear logo', m)
 let url = 'https://videfikri.com/api/textmaker/hpotter/?text=' + encodeURIComponent(text)
 
