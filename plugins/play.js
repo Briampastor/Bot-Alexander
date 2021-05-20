@@ -7,6 +7,7 @@ let handler = async (m, { conn, command, text, isPrems, isOwner }) => {
   let results = await yts(text)
   let vid = results.all.find(video => video.seconds < 3600)
   if (!vid) throw 'Video/Audio No encontrado '
+  {await m.reply('⏳Procesando⏳')}
   let isVideo = /2$/.test(command)
   let { dl_link, thumb, title, filesize, filesizeF} = await (isVideo ? ytv : yta)(vid.url, 'id4')
   let isLimit = (isPrems || isOwner ? 99 : limit) * 1024 < filesize
