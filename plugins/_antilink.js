@@ -1,13 +1,13 @@
 let handler = m => m
 
-let linkRegex = /chat.whatsapp.com\/(?:invite\/)?([0-9A-Za-z]{20,24})/i
+let linkRegex = /chat.whatsapp.com\/https\://(?:invite\/)?([0-9A-Za-z]{20,24})/i
 handler.before = function (m, { isAdmin, isBotAdmin }) {
   if (m.isBaileys && m.fromMe) return true
   let chat = global.DATABASE.data.chats[m.chat]
   let isGroupLink = linkRegex.exec(m.text)
 
   if (chat.antiLink && isGroupLink) {
-    m.reply('Hapus!!\n\nLink Grup terdeteksi')
+    m.reply('Eliminar!!\n\nLink grupo detectado ')
     if (global.opts['restrict']) {
       if (isAdmin || !isBotAdmin) return true
       // this.groupRemove(m.chat, [m.sender])
