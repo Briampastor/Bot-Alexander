@@ -1,5 +1,5 @@
 let handler = function (m) {
-  {m.reply('*Hola👋 este es mi creador ⚡Arrrow_OG⚡*')}
+  {m.reply('*Hola👋 este es mi creador ⚡Arrow_OG⚡*')}
   // this.sendContact(m.chat, '593987634004', 'Arrow', m)
   this.sendContact(m.chat, '593960178180', 'Arrow', m)
 }
