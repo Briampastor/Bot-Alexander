@@ -1,4 +1,5 @@
 let fetch = require('node-fetch')
+{await m.reply('🔎Realizando busqueda🔎')}
 let googleIt = require('google-it')
 let handler = async (m, { conn, command, args }) => {
   let full = /f$/i.test(command)
