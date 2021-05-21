@@ -5,7 +5,7 @@
 let handler = async m => m.reply(`
 〘 LISTA DE SERVIDORES SOCKSHTTP〙
 ❃❃❃❃❃❃❃❃❃❃❃❃❃❃❃
-      Arrow_OG *01* 
+      *Arrow_OG* *01* 
 ❃❃❃❃❃❃❃❃❃❃❃❃❃❃❃
 %readmore
 ➨ᴀғ❤️ꦿᴬʳʳᵒʷ ⚡ MOVISTAR-COMBOS-WHATSAPP-PLAY 30 DIAS⚡
