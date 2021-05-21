@@ -94,7 +94,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 │ %totalexp XP en Total
 │ 
 │ Fecha: *%week %weton, %date*
-│ Fecha islámica: *%dateIslamic*
+│ 
 │ Hora: *%time*
 │
 │ ⌛Tiempo de actividad⌛: *%uptime (%muptime)*
