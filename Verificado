@@ -1,0 +1,7 @@
+nayla.updatePresence(from, Presence.composing)
+
+			    	var itsme = `0@s.whatsapp.net`			    	var split = ` *Bot-Arrow* `
+
+		     	   var selepbot =         {
+
+					contextInfo:   { participant: itsme, quotedMessage: { extendedTextMessage: { text: split,	}}}}
