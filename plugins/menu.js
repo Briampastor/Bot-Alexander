@@ -90,7 +90,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 │ Hola👋, %name!
 │
 │ Restante de limites *%limit Limit*
-│ Nivel Y experiencia *%level (%exp / %maxexp)* [%xp4levelup lagi untuk levelup]
+│ Nivel Y experiencia *%level (%exp / %maxexp)*
 │ %totalexp XP en Total
 │ 
 │ Fecha: *%week %weton, %date*
@@ -114,7 +114,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 │. *❌No agregar al bot a otros grupos♻*
 │  *✅𝑺𝒖𝒔𝒄𝒓𝒊́𝒃𝒆𝒕𝒆 𝒂 𝒎𝒊 𝒄𝒂𝒏𝒂𝒍*
 │%readmore
-│*creditos✔️ * *Arrow_OG*
+│*creditos✔️* *Arrow_OG*
 ╰────
 %readmore`
     let header = conn.menu.header || '╭─「 %category 」'
