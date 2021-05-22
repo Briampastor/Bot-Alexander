@@ -114,7 +114,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 │. *❌No agregar al bot a otros grupos♻*
 │  *✅𝑺𝒖𝒔𝒄𝒓𝒊́𝒃𝒆𝒕𝒆 𝒂 𝒎𝒊 𝒄𝒂𝒏𝒂𝒍*
 │%readmore
-│*creditos✔️* *Arrow_OG*
+│*creditos* ✔️ *Arrow_OG*
 ╰────
 %readmore`
     let header = conn.menu.header || '╭─「 %category 」'
