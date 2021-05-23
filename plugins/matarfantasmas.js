@@ -40,11 +40,11 @@ let handler = async (m, { conn, text, participants }) => {
 		}
 		global.DATABASE.data.users[member[i]].chat == 0
 	}
-	conn.reply(m.chat, `*Sacado con éxito a ${total} mirones.*`, m)
+	conn.reply(m.chat, `*Fantasma sacado con éxito a ${total} mirones.*`, m)
 }
-handler.help = ['matarfantasmas]
+handler.help = ['sacarfantasmas]
 handler.tags = ['premium']
-handler.command = /^(matar)$/i
+handler.command = /^(sacarfantasmas)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = true
