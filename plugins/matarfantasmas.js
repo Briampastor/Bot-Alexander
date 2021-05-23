@@ -43,11 +43,11 @@ let handler = async (m, { conn, text, participants }) => {
 	conn.reply(m.chat, `*Sacado con éxito a ${total} mirones.*`, m)
 }
 handler.help = ['matarfantasmas]
-handler.tags = ['group']
-handler.command = /^(matarfantasmas)$/i
+handler.tags = ['premium']
+handler.command = /^(matar)$/i
 handler.owner = false
 handler.mods = false
-handler.premium = false
+handler.premium = true
 handler.group = true
 handler.private = false
 handler.admin = true
