@@ -15,5 +15,9 @@ handler.help = ['addprems Nombre']
 handler.tags = ['owner']
 handler.command = /^addprems$/i
 handler.rowner = true
+{
 
+      conn.sendFile(m.chat, 'Vos del bot.m4a', '', 'xd', m)
+
+}
 module.exports = handler
