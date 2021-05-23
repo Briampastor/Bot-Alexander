@@ -10,6 +10,12 @@ let who
   var nomor = m.sender
     m.reply(`*Listo usuario agregado como premium✅*\n\n*Numero: wa.me/${nomor.split("@s.whatsapp.net")[0]}\n*caduca en:* 30Dias\n*Gracias por agregar Premium !*`)
   
+{
+
+      conn.sendFile(m.chat, 'Vos del bot.m4a', '', 'xd', m)
+
+}
+  
 }
 handler.help = ['addprems Nombre']
 handler.tags = ['owner']
@@ -17,7 +23,7 @@ handler.command = /^addprems$/i
 handler.rowner = true
 
 
-      conn.sendFile(m.chat, 'Vos del bot.m4a', '', 'xd', m)
+
 
 
 module.exports = handler
