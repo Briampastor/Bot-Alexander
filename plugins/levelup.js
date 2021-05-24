@@ -11,7 +11,7 @@ Kurang *${max - user.exp}* lagi!
   }
   user.level++
   m.reply(`
-Selamat, anda telah naik level!
+✨Felicitaciones✨, has subido de nivel🎚️!
 *${user.level - 1}* -> *${user.level}*
   `.trim())
 }
