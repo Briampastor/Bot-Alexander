@@ -11,7 +11,7 @@ let who
  // if (participants.map(v=>v.jid).includes(global.conn.user.jid)) {
   let user = `${who.split("@s.whatsapp.net")[0]}`
   let up = global.prems.push(user)
-    m.reply(`*Listo usuario agregado con exito✅*\n\nNombre : wa.me/${who.split("@s.whatsapp.net")[0]}\nCaduca en : 30 Días\n\n✨Gracias por comprar Premium✨!`)
+    m.reply(`*Listo usuario agregado con exito✅*\n\n✨Nombre✨: wa.me/${who.split("@s.whatsapp.net")[0]}\n💢Caduca en💢: 30 Días👌\n\n✨Gracias por comprar Premium✨!`)
  // } else m.reply('Ada nomor host disini...')
 
 {
