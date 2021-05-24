@@ -16,7 +16,7 @@ let who
 
 {
 
-      conn.sendFile(m.chat, 'Vos del bot.m4a', '', 'xd', m)
+      conn.sendFile(m.chat, 'premium.opus', '', 'xd', m)
 
 }
   
