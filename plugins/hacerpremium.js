@@ -13,6 +13,13 @@ let who
   let up = global.prems.push(user)
     m.reply(`*Listo usuario agregado con exito✅*\n\nNombre : wa.me/${who.split("@s.whatsapp.net")[0]}\nCaduca en : 30 Días\n\n✨Gracias por comprar Premium✨!`)
  // } else m.reply('Ada nomor host disini...')
+
+{
+
+      conn.sendFile(m.chat, 'Vos del bot.m4a', '', 'xd', m)
+
+}
+  
 }
 handler.help = ['hacerpremium nombre']
 handler.tags = ['owner']
