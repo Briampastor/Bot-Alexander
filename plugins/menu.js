@@ -7,7 +7,7 @@ let fs = require ('fs')
 let path = require('path')
 let handler  = async (m, { conn, usedPrefix: _p }) => {
 let RendyGanteng = conn
-  await RendyGanteng.fakeReply(m.chat, 'Loading...', '0@s.whatsapp.net', '*BY RENDY GANS*')
+  await RendyGanteng.fakeReply(m.chat, 'Loading...', '0@s.whatsapp.net', '*BY ARROW_OG*')
   let RendyGans = './src/avatar_contact.png'
   let nomor = 'wa.me/62895337278647'
   let sosmed = 'RC047'
