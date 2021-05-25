@@ -16,8 +16,8 @@ let handler = async function (m, { text, usedPrefix }) {
 Daftar berhasil!
 
 ╭─「 Info 」
-│ Nama: ${name}
-│ Umur: ${age}thn
+│ Nombre: ${name}
+│ Edad: ${age}años
 │ SN: ${sn}
 ╰────
 `.trim())
