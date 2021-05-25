@@ -10,10 +10,10 @@ let RendyGanteng = conn
   await RendyGanteng.fakeReply(m.chat, 'Loading...', '0@s.whatsapp.net', '*BY ARROW_OG*')
   let RendyGans = './src/avatar_contact.png'
   let nomor = 'wa.me/62895337278647'
-  let sosmed = 'RC047'
+  let sosmed = 'Arrow_OG'
   let jadwal = '24 Jam'
   let github = 'https://github.com/RC047/Kuhong-V4'
-  let linkgroup = 'https://chat.whatsapp.com/EY0BzXwdV1PKAQQggsDzrU'
+  let linkgroup = 'https://chat.whatsapp.com/LUC7GKUrlFx7Q8CkrlL3sM'
   try {
     RendyGans = await RendyGanteng.getProfilePicture(conn.user.jid)
     let package = JSON.parse(fs.readFileSync(path.join(__dirname, '../package.json')))
