@@ -9,7 +9,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 let RendyGanteng = conn
   await RendyGanteng.fakeReply(m.chat, 'Loading...', '0@s.whatsapp.net', '*BY ARROW_OG*')
   let RendyGans = './src/avatar_contact.png'
-  let nomor = 'wa.me/62895337278647'
+  let nomor = 'wa.me/593987634004'
   let sosmed = 'Arrow_OG'
   let jadwal = '24 Jam'
   let github = 'https://github.com/RC047/Kuhong-V4'
