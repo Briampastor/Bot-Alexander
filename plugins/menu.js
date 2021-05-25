@@ -3,9 +3,9 @@ let path = require('path')
 let levelling = require('../lib/levelling')
 let handler  = async (m, { conn, usedPrefix: _p }) => {
  
-  {
+
       await RendyGanteng.fakeReply(m.chat, 'Loading...', '0@s.whatsapp.net', '*WHATSAPP VERIFICADO*')
-}
+
   
   try {
     let package = JSON.parse(fs.readFileSync(path.join(__dirname, '../package.json')))
