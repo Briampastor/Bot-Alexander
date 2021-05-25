@@ -47,7 +47,7 @@ let RendyGanteng = conn
       'sticker': 'Creator Menu',
       'game': 'Fun Menu',
       'spammer': 'Spammer Menu',
-      'image': 'Image Menu',
+      'image': 'Menú de imagen',
       'internet': 'Search Menu',
       'sound': 'Sound Menu',
       'quotes': 'Random Menu',
@@ -107,15 +107,15 @@ let RendyGanteng = conn
 │${nomor}
 ╰────
 
-╭─「 Jadwal Aktif 」
+╭─「 Horario activo 」
 │• ${jadwal}
 ╰────
 
-╭─「 Changelog 」
+╭─「 Registro de cambios 」
 │• Add Leveling
 ╰────
 
-╭─「 Join Group 」
+╭─「 Unirse al grupo 」
 │${linkgroup}
 ╰────
 %readmore`
