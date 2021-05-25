@@ -99,10 +99,10 @@ let RendyGanteng = conn
 │• Prefix : *%p*
 │
 │• YouTube : *${sosmed}*
-│• Instagram : *@${sosmed}*
-│• FaceBook : *${sosmed}*
+│• Instagram :https://www.instagram.com/arrow_11012020/
+│• FaceBook :
 │• GitHub :
-│${github}
+│
 │• Nomor Bot :
 │${nomor}
 ╰────
