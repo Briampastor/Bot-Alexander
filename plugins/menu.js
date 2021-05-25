@@ -98,7 +98,7 @@ let RendyGanteng = conn
 │• Total User : *%totalreg Nomor*
 │• Prefix : *%p*
 │
-│• YouTube : *${sosmed}*
+│• YouTube :https://m.youtube.com/channel/UCYHmLosvfftHMmLrlGDwIPg
 │• Instagram :https://www.instagram.com/arrow_11012020/
 │• FaceBook :
 │• GitHub :
