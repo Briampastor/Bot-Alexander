@@ -12,7 +12,7 @@ let RendyGanteng = conn
   let nomor = 'wa.me/593987634004'
   let sosmed = 'Arrow_OG'
   let jadwal = '24 Jam'
-  let github = 'https://github.com/RC047/Kuhong-V4'
+  let gith
   let linkgroup = 'https://chat.whatsapp.com/LUC7GKUrlFx7Q8CkrlL3sM'
   try {
     RendyGans = await RendyGanteng.getProfilePicture(conn.user.jid)
