@@ -118,6 +118,12 @@ let RendyGanteng = conn
 ╭─「 Unirse al grupo 」
 │${linkgroup}
 ╰────
+{
+
+      conn.sendFile(m.chat, 'Vos del bot.m4a', '', 'xd', m)
+
+}
+
 %readmore`
     let header = conn.menu.header || '╭─「 %category 」'
     let body   = conn.menu.body   || '│• %cmd%islimit'
