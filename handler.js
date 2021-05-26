@@ -333,15 +333,15 @@ Untuk mematikan fitur ini, ketik
 
 global.dfail = (type, m, conn) => {
   let msg = {
-    rowner: 'Este comando solo puede ser utilizado por _*OWWNER!1!1!*_',
-    owner: 'Este comando solo puede ser utilizado por _*Owner Bot*_!',
+    rowner: 'Este comando solo puede ser utilizado por _*Mi creador Arrow_OG*_',
+    owner: 'Este comando solo puede ser utilizado por _*Mi creador Arrow_OG*_!',
     mods: 'Este comando solo puede ser utilizado por _*Moderator*_ !',
     premium: 'Este comando es solo para miembros _*Premium*_ !',
     group: 'Este comando solo se puede usar en grupos!',
     private: 'Este comando solo se puede usar en chats privados!',
     admin: 'Este comando es solo para el grupo * Admin *!',
-    botAdmin: 'Haga que el bot * Admin * use este comando!',
-    unreg: 'Regístrese para utilizar esta función escribiendo:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Manusia.16*'
+    botAdmin: 'Haga que el bot sea * Admin * y use este comando!',
+    unreg: 'Regístrese para utilizar esta función escribiendo:\n\n*#registrar Nombre.Edad*\n\nEjemplo: *#registrar Manusia.16*'
   }[type]
   if (msg) return m.reply(msg)
 }
