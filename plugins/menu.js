@@ -4,11 +4,11 @@ let levelling = require('../lib/levelling')
 {
 
       await RendyGanteng.fakeReply(m.chat, 'Loading...', '0@s.whatsapp.net', '*WHATSAPP VERIFICADO*')
-
+let RendyGanteng = conn
 }
 let handler  = async (m, { conn, usedPrefix: _p }) => {
   try {
-        
+        let RendyGanteng = conn
         {
 
       {await RendyGanteng.fakeReply(m.chat, 'Loading...', '0@s.whatsapp.net', '*WHATSAPP VERIFICADO*')}
