@@ -22,7 +22,7 @@ El registro fue exitoso✅👌!
 ╰────
 `.trim())
 }
-handler.help = ['daftar', 'reg', 'register'].map(v => v + ' <nama>.<umur>')
+handler.help = ['daftar', 'reg', 'register'].map(v => v + ' Nombre.Edad')
 handler.tags = ['exp']
 
 handler.command = /^(daftar|reg(ister)?)$/i
