@@ -13,11 +13,11 @@ let handler = async function (m, { text, usedPrefix }) {
   user.registered = true
   let sn = createHash('md5').update(m.sender).digest('hex')
   m.reply(`
-  {
 
-      conn.sendFile(m.chat, 'registratado.mp3', '', 'xd', m)
 
-}
+    
+
+
 El registro fue exitoso✅👌
 
 
