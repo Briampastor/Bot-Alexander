@@ -23,6 +23,8 @@ let who
 }
 handler.help = ['hacerpremium nombre']
 handler.tags = ['owner']
+handler.group = true
+handler.admin = true
 handler.command = /^hacerpremium$/i
 handler.rowner = true
 
