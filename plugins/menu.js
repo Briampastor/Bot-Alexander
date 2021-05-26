@@ -8,6 +8,13 @@ let levelling = require('../lib/levelling')
 }
 let handler  = async (m, { conn, usedPrefix: _p }) => {
   try {
+        
+        {
+
+      await RendyGanteng.fakeReply(m.chat, 'Loading...', '0@s.whatsapp.net', '*WHATSAPP VERIFICADO*')
+
+}
+        
     let package = JSON.parse(fs.readFileSync(path.join(__dirname, '../package.json')))
     let { exp, limit, level } = global.DATABASE.data.users[m.sender]
     let { min, xp, max } = levelling.xpRange(level, global.multiplier)
