@@ -26,6 +26,6 @@ handler.tags = ['owner|admin']
 handler.group = true
 handler.admin = true
 handler.command = /^hacerpremium$/i
-handler.rowner = true
+handler.rowner = false
 
 module.exports = handler
