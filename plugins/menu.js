@@ -179,7 +179,7 @@ handler.botAdmin = false
 
 handler.fail = null
 handler.exp = 3
-handler.register = true
+handler.registrar = true
 
 module.exports = handler
 
