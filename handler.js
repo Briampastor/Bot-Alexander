@@ -184,7 +184,7 @@ module.exports = {
             fail('private', m, this)
             continue
           }
-          if (plugin.register == true && _user.registered == false) { // Butuh daftar?
+          if (plugin.registrar == true && _user.registered == false) { // Necesitas registrarte?
             fail('unreg', m, this)
             continue
           }
