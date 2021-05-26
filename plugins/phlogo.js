@@ -12,8 +12,8 @@ Buat Beli Apikey : 10K
 *Total : 15K ya!*
 `.trim()
 
-    if (!t1) return conn.reply(m.chat, 'Silahkan masukan parameter text1', m)
-    if (!t2) return conn.reply(m.chat, 'Silahkan masukan parameter text2', m)
+    if (!t1) return conn.reply(m.chat, 'Ingrese el parámetro text1', m)
+    if (!t2) return conn.reply(m.chat, 'Ingrese el parámetro text2', m)
 
   await m.reply('Sedang membuat...')
 
