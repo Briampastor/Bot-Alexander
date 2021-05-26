@@ -14,11 +14,11 @@ let handler = async function (m, { text, usedPrefix }) {
   let sn = createHash('md5').update(m.sender).digest('hex')
   m.reply(`
 El registro fue exitoso✅👌
-{
 
-      conn.sendFile(m.chat, 'registratado.mp3', '', 'xd', m)
 
-}
+
+
+
 
 ╭─「 ⚡Información⚡ 」
 │ ✨Nombre✨: ${name}
@@ -31,6 +31,11 @@ El registro fue exitoso✅👌
 
 
 `.trim())
+}
+{
+
+      conn.sendFile(m.chat, 'registratado.mp3', '', 'xd', m)
+
 }
 handler.help = ['registrar', 'reg', 'register'].map(v => v + ' <nombre>.<edad>')
 handler.tags = ['exp']
