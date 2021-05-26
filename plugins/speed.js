@@ -3,7 +3,7 @@ let handler = async (m, { conn }) => {
   let old = performance.now()
   await m.reply('_⌛Realizando prueba de velocidad⌛..._')
   let neww = performance.now()
-  m.reply(neww - old + 'ms')
+  m.reply(neww - 'ms')
 }
 handler.help = ['ping', 'speed']
 handler.tags = ['info', 'tools']
