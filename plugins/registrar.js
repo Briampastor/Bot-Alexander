@@ -20,6 +20,11 @@ El registro fue exitoso✅👌
 │ 🔥Edad🔥: ${age}años
 │ 💢SN💢: ${sn}
 ╰────
+{
+
+      conn.sendFile(m.chat, 'registratado.mp3', '', 'xd', m)
+
+}
 `.trim())
 }
 handler.help = ['registrar', 'reg', 'register'].map(v => v + ' <nombre>.<edad>')
