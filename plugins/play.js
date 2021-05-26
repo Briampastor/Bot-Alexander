@@ -22,6 +22,9 @@ let handler = async (m, { conn, command, text, isPrems, isOwner }) => {
 *🔥Título:* ${title}
 *📂Tamaño del archivo:* ${filesizeF}
 `.trim(), m, false, _thumb || {})
+  {
+      conn.sendFile(m.chat, 'Vos del bot.m4a', '', 'xd', m)
+}
 }
 handler.help = ['play', 'play2'].map(v => v + ' <canción >')
 handler.tags = ['downloader']
