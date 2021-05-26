@@ -10,7 +10,11 @@ let samu = await url.json()
 let erest = samu[Math.floor(Math.random() * samu.length)]
             await conn.sendFile(m.chat, erest, '', 'FUERON DEMACIADAS IMAGENES DE *' + encodeURIComponent(text) + '* TU IMAGEN SE ENCONTRO CON EXITO👌', m)
 
+{
 
+      conn.sendFile(m.chat, 'resultado1.mp3', '', 'xd', m)
+
+}
 }
 handler.help = ['imagen']
 handler.tags = ['images']
