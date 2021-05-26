@@ -5,7 +5,7 @@ let handler = async (m, { conn }) => {
   let neww = performance.now()
   m.reply(neww - 'ms')
 }
-handler.help = ['ping', 'speed']
+handler.help = ['ping2', 'speed2']
 handler.tags = ['info', 'tools']
 
 handler.command = /^(ping|speed)$/i
