@@ -6,8 +6,8 @@ let handler = async(m, { conn, text }) => {
     let str = `
 Nihh
 
-Biaya Pembuatan : 5K
-Buat Beli Apikey : 10K
+Costos de manufactura : 5K
+Hacer Comprar Apikey : 10K
 
 *Total : 15K ya!*
 `.trim()
