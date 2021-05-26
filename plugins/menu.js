@@ -11,7 +11,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
         
         {
 
-      await RendyGanteng.fakeReply(m.chat, 'Loading...', '0@s.whatsapp.net', '*WHATSAPP VERIFICADO*')
+      {await RendyGanteng.fakeReply(m.chat, 'Loading...', '0@s.whatsapp.net', '*WHATSAPP VERIFICADO*')}
 
 }
         
