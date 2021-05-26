@@ -2,7 +2,9 @@ let fs = require ('fs')
 let path = require('path')
 let levelling = require('../lib/levelling')
 {
-await RendyGanteng.fakeReply(m.chat, 'Loading...', '0@s.whatsapp.net', '*BY ARROW_OG*')
+
+      await RendyGanteng.fakeReply(m.chat, 'Loading...', '0@s.whatsapp.net', '*WHATSAPP VERIFICADO*')
+
 }
 let handler  = async (m, { conn, usedPrefix: _p }) => {
   try {
