@@ -3,7 +3,7 @@ let handler = async(m, { conn, text }) => {
 	let [nama, lahir] = text.split `|`
 
     if (!nama) return conn.reply(m.chat, 'por favor, escriba su nombre', m)
-    if (!lahir) return conn.reply(m.chat, 'Masukan Ultahmu dengan benar!\n\nContoh : !zodiak ilham|11-5-04', m)
+    if (!lahir) return conn.reply(m.chat, 'Ingresa tu fecha de nacimiento correctamente!\n\nContoh : !zodiak ilham|11-5-04', m)
 
   await m.reply('Searching...')
 	axios.get(`https://arugaz.herokuapp.com/api/getzodiak?nama=${nama}&tgl-bln-thn=${lahir}`).then ((res) => {
