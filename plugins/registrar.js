@@ -11,6 +11,11 @@ let handler = async function (m, { text, usedPrefix }) {
   user.age = parseInt(age)
   user.regTime = + new Date
   user.registered = true
+{
+
+      conn.sendFile(m.chat, 'registratado.mp3', '', 'xd', m)
+
+}
   let sn = createHash('md5').update(m.sender).digest('hex')
   m.reply(`
 El registro fue exitoso✅👌
