@@ -65,7 +65,7 @@ lolpentakill
 `.trim()
 
     if (!effect) return conn.reply(m.chat, listeffect, m)
-    if (!teks) return conn.reply(m.chat, 'Uhm... Teksnya?', m)
+    if (!teks) return conn.reply(m.chat, 'Uhm ... El texto?', m)
 
   await m.reply('Sedang membuat...')
  let hasil = await (await fetch('https://api.xteam.xyz/photooxy/' + effect + '?text=' + teks + '&APIKEY=APIKEYMU')).buffer()
