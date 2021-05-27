@@ -6,7 +6,7 @@ let handler = async (m, { conn, text, participants }) => {
 }
 handler.help = ['notificacion','announce','hidetag'].map(v => v + ' [teks]')
 handler.tags = ['group']
-handler.command = /^(notificacion|announce|hiddentag|hidetag)$/i
+handler.command = /^(notificacion|anuncio|nota|hidetag)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = true
