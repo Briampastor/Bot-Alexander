@@ -23,8 +23,11 @@ function pickRandom(list) {
 
 // https://jalantikus.com/tips/kata-kata-bucin/
 global.bucin = [
-  "Aku memilih untuk sendiri, bukan karena menunggu yang sempurna, tetapi butuh yang tak pernah menyerah.",
-  "Seorang yang single diciptakan bersama pasangan yang belum ditemukannya.",
+  "Elijo estar solo, no por esperar lo perfecto, pero nunca tengo que rendirme. ",
+
+27
+
+  "Se creó una sola persona con un socio que no había encontrado.",
   "Jomblo. Mungkin itu cara Tuhan untuk mengatakan 'Istirahatlah dari cinta yang salah'.",
   "Jomblo adalah anak muda yang mendahulukan pengembangan pribadinya untuk cinta yang lebih berkelas nantinya.",
   "Aku bukan mencari seseorang yang sempurna, tapi aku mencari orang yang menjadi sempurna berkat kelebihanku.",
