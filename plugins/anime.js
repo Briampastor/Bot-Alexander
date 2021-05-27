@@ -10,10 +10,10 @@ let handler = async(m, { conn, args, usedPrefix }) => {
             .then(body => {
                 let randomnime = body.split('\n')
                 let randomnimex = randomnime[Math.floor(Math.random() * randomnime.length)]
-                conn.sendFile(m.chat, randomnimex, '', 'Arrow_OG', m)
+                conn.sendFile(m.chat, randomnimex, '', '*Arrow_OG*', m)
             })
             .catch(() => {
-                conn.reply(m.chat, 'Hay un error cuy... Puede preguntar ke\n*Instagram:* @Arrow11012020!', m)
+                conn.reply(m.chat, 'Ha ocurrido un error ... Puede preguntar ke\n*Instagram:* @Arrow11012020!', m)
             })
     } else {
         conn.reply(m.chat, `Lo sentimos, la consulta no está disponible.. Por favor escribe ${usedPrefix}anime para ver la lista de consultas`, m)
