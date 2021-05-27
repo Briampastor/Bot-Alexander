@@ -16,10 +16,10 @@ let handler = async function (m, { text, usedPrefix }) {
 El registro fue exitoso✅👌
 
 ╭─「 ⚡Información⚡ 」
-│ ✨Nombre✨: ${name}
-│ 🔥Edad🔥: ${age}años
-│ 💢SN💢: ${sn}
-╰────
+│🔲◻️◽▫️✨Nombre✨: ${name}
+│🔲◻️◽▫️🔥Edad🔥: ${age}años
+│🔲◻️◽▫️💢SN💢: ${sn}
+╰──── 🔥🔥🔥🔥🔥🔥🔥
 `.trim())
 }
 handler.help = ['registrar', 'reg', 'register'].map(v => v + ' <nombre>.<edad>')
