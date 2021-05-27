@@ -341,7 +341,7 @@ global.dfail = (type, m, conn) => {
     private: 'Este comando solo se puede usar en chats privados!',
     admin: 'Este comando es solo para el grupo * Admin *!',
     botAdmin: 'Haga que el bot sea * Admin * y use este comando!',
-    unreg: 'Regístrese para utilizar esta función escribiendo:\n\n*#registrar Nombre.Edad*\n\nEjemplo: *#registrar Manusia.16*'
+    unreg: 'Regístrese para utilizar esta función escribiendo:\n\n*#registrar Nombre.Edad*\n\nEjemplo: *#registrar Arrow_OG.96*'
   }[type]
   if (msg) return m.reply(msg)
 }
