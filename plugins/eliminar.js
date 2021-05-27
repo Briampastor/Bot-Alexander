@@ -6,7 +6,7 @@ let handler = async (m, { conn, args }) => {
 handler.help = ['eliminar','-'].map(v => 'o' + v + ' @user')
 handler.tags = ['owner']
 handler.command = /^(eliminar|o\-)$/i
-handler.owner = true
+handler.owner = false
 handler.mods = false
 handler.premium = true
 handler.group = true
