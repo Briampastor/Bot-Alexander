@@ -5,7 +5,7 @@ let handler = async(m, { conn, text }) => {
     if (!nama) return conn.reply(m.chat, 'por favor, escriba su nombre', m)
     if (!lahir) return conn.reply(m.chat, 'Ingresa tu fecha de nacimiento correctamente!\n\nContoh : !zodiak ilham|11-5-04', m)
 
-  await m.reply('Searching...')
+  await m.reply('buscando...')
 	axios.get(`https://arugaz.herokuapp.com/api/getzodiak?nama=${nama}&tgl-bln-thn=${lahir}`).then ((res) => {
 	 	let hasil = `*INFO ZODIAK*\n\nLahir : ${res.data.lahir}*\nUltah : ${res.data.ultah}\nUsia : ${res.data.usia}\nZodiak : ${res.data.zodiak}️`
 
