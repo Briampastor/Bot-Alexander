@@ -102,11 +102,11 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 │ 
 │📲Sistema operativo : *${conn.user.phone.device_manufacturer}*
 │✅version : *${conn.browserDescription[2]}*
-│
-│
+│     *Instagram*
+│ https://www.instagram.com/arrow_11012020/
 │🔥𝐌𝐲 𝐜𝐚𝐧𝐚𝐥 𝐝𝐞 𝐲𝐨𝐮𝐭𝐮𝐛𝐞🔥
 │https://m.youtube.com/channel/UCYHmLosvfftHMmLrlGDwIPg
-│
+│ *Suscríbete no seas pavo*
 │%readmore
 │ *💢𝗢𝗯𝗲𝗱𝗲𝗰𝗲 𝗹𝗮𝘀 𝗿𝗲𝗴𝗹𝗮𝘀 💢*
 │  *❌ Prohibido llamar o escribir al bot📲*
