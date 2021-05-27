@@ -2,7 +2,7 @@ let axios = require("axios");
 let handler = async(m, { conn, text }) => {
 	let [nama, lahir] = text.split `|`
 
-    if (!nama) return conn.reply(m.chat, 'Silahkan masukan namamu', m)
+    if (!nama) return conn.reply(m.chat, 'por favor, escriba su nombre', m)
     if (!lahir) return conn.reply(m.chat, 'Masukan Ultahmu dengan benar!\n\nContoh : !zodiak ilham|11-5-04', m)
 
   await m.reply('Searching...')
