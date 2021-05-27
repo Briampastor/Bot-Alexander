@@ -3,7 +3,7 @@ let handler = async (m, { conn, text, isROwner, isOwner }) => {
     if (isROwner) global.conn.welcome = text
     else if (isOwner) conn.welcome = text
     global.DATABASE._data.chats[m.chat].sWelcome = text
-    m.reply('La bienvenida se configuró correctamente\n@user (Mention)\n@subject (Judul Grup)')
+    m.reply('La bienvenida se configuró correctamente\n@user (Mention)\n@subject (Título del grupo)')
   } else throw 'Teksnya mana?'
 }
 handler.help = ['setwelcome <texto>']
