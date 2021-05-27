@@ -1,8 +1,8 @@
-# wabot-aq
+# ⚡Bot-Arrow⚡
 
-Simple WhatsApp Bot
+ Bot facil para WhatsApp
 
-## FOR TERMUX USER
+## ✴️PARA USUARIOS TERMUX✴️
 
 ```bash
 > pkg update && pkg upgrade
@@ -17,7 +17,7 @@ Simple WhatsApp Bot
 
 ---------
 
-## FOR WINDOWS/VPS/RDP USER
+## ✨PARA USUARIOS WINDOWS/VPS/RDP✨
 
 * Download And Install Git [`Click Here`](https://git-scm.com/downloads)
 * Download And Install NodeJS [`Click Here`](https://nodejs.org/en/download)
