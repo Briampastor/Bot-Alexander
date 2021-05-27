@@ -3,7 +3,7 @@ let Reg = /(.*)([.|])([0-9]*)$/i
 let handler = async function (m, { text, usedPrefix }) {
   let user = global.DATABASE._data.users[m.sender]
   if (user.registered === true) throw `Usted ya está registrado \nQuiere volver a registrarse? ${usedPrefix}unreg <SN|NÚMERO DE SERIE>`
-  if (!Reg.test(text)) throw `✨Porfavor Escribir bien sin espacips tal cual se indica✨\n*${usedPrefix}registrar nombre.edad*`
+  if (!Reg.test(text)) throw `✨Porfavor Escribir bien sin espacios tal cual se indica✨\n*${usedPrefix}registrar nombre.edad*`
   let [_, name, splitter, age] = text.match(Reg)
   if (!name) throw 'Los nombres no pueden estar vacíos (Alphanumeric)'
   if (!age) throw 'La edad no puede estar vacía (Angka)'
