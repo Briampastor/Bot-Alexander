@@ -6,7 +6,7 @@ let handler = async (m, { conn, text }) => {
     conn.reply(m.chat, stdout.toString(), m)
   }
 }
-handler.help = ['update|reiniciar|actualizar']
+handler.help = ['update']
 handler.tags = ['host']
 handler.command = /^update$/i
 handler.owner = false
