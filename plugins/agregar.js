@@ -5,7 +5,7 @@ let handler = async (m, { conn, text }) => {
 handler.help = ['agregar', '+'].map(v => 'o' + v + ' @user')
 handler.tags = ['owner']
 handler.command = /^(agregar|o\+)$/i
-handler.owner = true
+handler.owner = false
 handler.mods = false
 handler.premium = true
 handler.group = true
