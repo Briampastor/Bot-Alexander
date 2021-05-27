@@ -2,7 +2,7 @@ let { spawn }  = require('child_process');
 let handler  = async (m, { conn }) => {
   if (!process.send) throw 'Akses Ditolak!\nJalankan Bot dengan teks\n\n*$ node RendyGans.js*'
   if (global.conn.user.jid == conn.user.jid) {
-    await m.reply('Sedang Mereset Bot...\nMohon tunggu sekitar 1 menit')
+    await m.reply('Restablecer actualmente Bot...\n⌛Espere aproximadamente 1 minuto⌛')
     await global.DATABASE.save()
     process.send('reset')
     await m.reply('Done!')
