@@ -42,7 +42,7 @@ let handler = async (m, { conn, text, participants }) => {
 	}
 	conn.reply(m.chat, `*Sacado con éxito a ${total} mirones.*`, m)
 }
-handler.help = ['sacar]
+handler.help = ['sacar|matar|killrandom]
 handler.tags = ['premium']
 handler.command = /^(sacar)$/i
 handler.owner = false
