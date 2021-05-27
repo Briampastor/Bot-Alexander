@@ -10,7 +10,7 @@ handler.before = function (m, { user, isAdmin, isBotAdmin }) {
   let link = linkRegex.exec(m.text)
 
   if (chat.antiLink && link) {
- m.reply(`*「 ANTI LINK 」*\n\nTerdeteksi *${name}* telah mengirim link group!\n\nMaaf Kamu akan dikick dari grup ini!`)
+ m.reply(`*「 ANTI LINK 」*\n\nDetected *${name}* has enviado un link en el grupo!\n\nLo siento. Serás expulsado de este grupo.!`)
    this.groupRemove(m.chat, [m.sender])
   }
 }
