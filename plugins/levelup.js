@@ -5,8 +5,8 @@ let handler = m => {
   if (!levelling.canLevelUp(user.level, user.exp, global.multiplier)) {
     let { min, xp, max } = levelling.xpRange(user.level, global.multiplier)
     throw `
-Level *${user.level} (${user.exp - min}/${xp})*
-Kurang *${max - user.exp}* lagi!
+Nivel🎚️ *${user.level} (${user.exp - min}/${xp})*
+✴️Menos✴️ *${max - user.exp}* de nuevo!
 `.trim()
   }
   user.level++
