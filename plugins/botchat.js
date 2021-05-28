@@ -1,4 +1,4 @@
-let handler = m => m.reply('Yaa Aku Disini??\n\nIngin Memulai Bot? Ketik !help atau !menu yaa ;)')
+let handler = m => m.reply('Si, estoy aqui??\n\nQuiere iniciar un bot? Escriba! Ayuda o !menu yaa ;)')
 
 handler.customPrefix = /Kuhong|kuhong|hong|Hong/i
 handler.command = new RegExp
