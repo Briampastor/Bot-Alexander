@@ -3,7 +3,7 @@ let handler  = async (m, { conn }) => {
 }
 handler.help = ['frases']
 handler.tags = ['premium']
-handler.command = /^(bucin)$/i
+handler.command = /^(frases)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = true
