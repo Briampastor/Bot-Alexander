@@ -2,7 +2,7 @@ let imageToBase64 = require('image-to-base64');
 let axios = require("axios");
 let handler = async(m, { conn, text }) => {
 
-if (!text) return conn.reply(m.chat, 'Harap masukan query!', m)
+if (!text) return conn.reply(m.chat, 'Por favor ingrese una consulta!', m)
 
 let url = "https://api.fdci.se/rep.php?gambar=" + text;
 let str = `
@@ -11,7 +11,7 @@ Hasil Pencarian :
 ${text}
 `.trim()
 
-await m.reply('Searching...')
+await m.reply('Buscando...🔎')
 axios.get(url)
 .then((result) => {
 let b = JSON.parse(JSON.stringify(result.data));
@@ -33,9 +33,9 @@ conn.sendFile(m.chat, buf, 'foto.jpg', str, m)
 });
 }
 
-handler.help = ['image <query>','pinterest <query>']
-handler.tags = ['image']
-handler.command = /^(image|pinterest)$/i
+handler.help = ['imagen2 <query>','pinterest <query>']
+handler.tags = ['imagen2']
+handler.command = /^(imagen2|pinterest)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
@@ -47,6 +47,7 @@ handler.botAdmin = false
 
 handler.fail = null
 handler.exp = 0
+handler.registrar = true
 handler.limit = true
 
 module.exports = handler
