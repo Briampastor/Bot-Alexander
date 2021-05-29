@@ -1,11 +1,16 @@
 let handler = async (m, { conn, args }) => {
   let users = m.mentionedJid
   conn.groupDemoteAdmin(m.chat, users)
+{
+
+      conn.sendFile(m.chat, 'Vos del bot.m4a', '', 'xd', m)
+
+}
 }
 handler.help = ['quitaradmin','member','v'].map(v => 'o' + v + ' @user')
 handler.tags = ['owner']
 handler.command = /^(quitaradmin|omember|ov)$/i
-handler.owner = true
+handler.owner = false
 handler.mods = false
 handler.premium = false
 handler.group = true
