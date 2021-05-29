@@ -10,7 +10,7 @@ let handler = async(m, { conn, args, usedPrefix }) => {
             .then(body => {
                 let randomkpop = body.split('\n')
                 let randomkpopx = randomkpop[Math.floor(Math.random() * randomkpop.length)]
-                conn.sendFile(m.chat, randomkpopx, '', 'Dasar Kpopers', m)
+                conn.sendFile(m.chat, randomkpopx, '', '*By Arrow_OG*', m)
             })
             .catch(() => {
                 conn.reply(m.chat, 'Hay un error ... ¿Puedes preguntar?\n*Instagram:* @Arrow11012020!', m)
