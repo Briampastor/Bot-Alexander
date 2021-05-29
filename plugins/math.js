@@ -1,8 +1,8 @@
 global.math = global.math ? global.math : {}
 let handler  = async (m, { conn, args, usedPrefix }) => {
   if (args.length < 1) return conn.reply(m.chat, `
-Modo: ${Object.keys(modes).join(' | ')}
-Ejemplo: ${usedPrefix}math medium
+*Modo:* ${Object.keys(modes).join(' | ')}
+*Ejemplo de :* ${usedPrefix}math medium
 `.trim(), m)
   let mode = args[0].toLowerCase()
   if (!(mode in modes)) return conn.reply(m.chat, `
