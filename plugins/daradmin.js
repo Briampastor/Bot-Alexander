@@ -1,6 +1,7 @@
 let handler = async (m, { conn, args }) => {
   let users = m.mentionedJid
   conn.groupMakeAdmin(m.chat, users)
+{m.reply('*Un nuevo admin se agrego con exito✅*')}
 {
 
       conn.sendFile(m.chat, 'Vos del bot.m4a', '', 'xd', m)
