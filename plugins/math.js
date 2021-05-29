@@ -1,13 +1,13 @@
 global.math = global.math ? global.math : {}
 let handler  = async (m, { conn, args, usedPrefix }) => {
   if (args.length < 1) return conn.reply(m.chat, `
-Mode: ${Object.keys(modes).join(' | ')}
-Contoh penggunaan: ${usedPrefix}math medium
+Modo: ${Object.keys(modes).join(' | ')}
+Ejemplo: ${usedPrefix}math medium
 `.trim(), m)
   let mode = args[0].toLowerCase()
   if (!(mode in modes)) return conn.reply(m.chat, `
-Mode: ${Object.keys(modes).join(' | ')}
-Ejemplos de uso: ${usedPrefix}math medium
+*Mode:* ${Object.keys(modes).join(' | ')}
+*Ejemplos de uso:* ${usedPrefix}math medium
 `.trim(), m)
   let id = m.chat
   if (id in global.math) return conn.reply(m.chat, 'Todavía hay preguntas sin respuesta en este chat.', global.math[id][0])
@@ -23,6 +23,7 @@ Ejemplos de uso: ${usedPrefix}math medium
 }
 handler.help = ['math <mode>']
 handler.tags = ['game']
+handler.registrar = true
 handler.command = /^math/i
 
 module.exports = handler
