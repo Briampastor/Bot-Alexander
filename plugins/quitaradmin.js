@@ -15,7 +15,7 @@ m.reply(`
 
 ╰────
 
-`.trim())
+
 {
 
       conn.sendFile(m.chat, 'Vos del bot.m4a', '', 'xd', m)
