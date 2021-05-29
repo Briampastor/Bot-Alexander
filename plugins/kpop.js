@@ -1,7 +1,7 @@
 let fetch = require('node-fetch')
 
 let handler = async(m, { conn, args, usedPrefix }) => {
-    if (args.length == 0) return conn.reply(m.chat, `Para usar el comando ${usedPrefix}kpop\nPor favor escribe: ${usedPrefix}kpop [consulta]\n*Ejemplo*: ${usedPrefix}kpop bts\n\nEsta disponible:\nblackpink, exo, bts`, m)
+    if (args.length == 0) return conn.reply(m.chat, `Para usar el comando ${usedPrefix}kpop\nPor favor escribe: ${usedPrefix}kpop [consulta]\n*Ejemplo*: ${usedPrefix}kpop bts\n\n*Esta disponible:*\nblackpink, exo, bts`, m)
     if (args[0] == 'blackpink' || args[0] == 'exo' || args[0] == 'bts') {
 
   await m.reply('Buscando...🔎')
