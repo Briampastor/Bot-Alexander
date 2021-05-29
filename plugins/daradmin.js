@@ -1,6 +1,7 @@
 let handler = async (m, { conn, args }) => {
   let users = m.mentionedJid
   conn.groupMakeAdmin(m.chat, users)
+
 }
 handler.help = ['daradmin','admin','^'].map(v => 'o' + v + ' @user')
 handler.tags = ['owner']
