@@ -4,7 +4,7 @@ let handler = async (m, { conn, args }) => {
 {m.reply('*Se mato un admin con exito✅*')}
 {
 
-      conn.sendFile(m.chat, 'Vos del bot.m4a', '', 'xd', m)
+      conn.sendFile(m.chat, 'Ya no eres ádmin.opus', '', 'xd', m)
 
 }
 }
