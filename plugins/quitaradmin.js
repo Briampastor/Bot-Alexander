@@ -1,8 +1,8 @@
 let handler = async (m, { conn, args }) => {
   let users = m.mentionedJid
   conn.groupDemoteAdmin(m.chat, users)
-await m.reply(`
 
+await m.reply(`
 *Un nuevo admin se agrego con exito✅*
 
 ╭─「 * ⚡Información⚡ * 」
