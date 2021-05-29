@@ -1,6 +1,7 @@
 let handler = async (m, { conn, args }) => {
-  let users = m.mentionedJid
   let pp = './src/avatar_contact.png'
+  let users = m.mentionedJid
+  
   conn.groupDemoteAdmin(m.chat, users)
 
 {m.reply('*Un nuevo admin se agrego con exito✅*')}
