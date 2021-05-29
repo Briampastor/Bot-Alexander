@@ -1,6 +1,21 @@
 let handler = async (m, { conn, args }) => {
   let users = m.mentionedJid
   conn.groupDemoteAdmin(m.chat, users)
+m.reply(`
+
+*Un nuevo admin se agrego con exito✅*
+
+╭─「 * ⚡Información⚡ * 」
+
+│ *✨Nombre✨:* ${name}
+
+│ *🔥Rango🔥:* Admin
+
+│ *💢Grupo💢:* @subject
+
+╰────
+
+`.trim())
 {
 
       conn.sendFile(m.chat, 'Vos del bot.m4a', '', 'xd', m)
