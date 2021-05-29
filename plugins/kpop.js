@@ -13,7 +13,7 @@ let handler = async(m, { conn, args, usedPrefix }) => {
                 conn.sendFile(m.chat, randomkpopx, '', 'Dasar Kpopers', m)
             })
             .catch(() => {
-                conn.reply(m.chat, 'Ada yang Error cuy... Bisa tanyakan ke\n*Instagram:* @rendycraft047!', m)
+                conn.reply(m.chat, 'Hay un error ... ¿Puedes preguntar?\n*Instagram:* @Arrow11012020!', m)
             })
     } else {
         conn.reply(m.chat, `Lo sentimos, la consulta no está disponible.. Por favor escribe ${usedPrefix}kpop untuk melihat list query`, m)
