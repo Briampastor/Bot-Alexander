@@ -10,6 +10,7 @@ handler.premium = true
 handler.group = true
 handler.private = false
 handler.admin = false
+handler.registrar = true
 handler.botAdmin = false
 handler.fail = null
 handler.limit = true
