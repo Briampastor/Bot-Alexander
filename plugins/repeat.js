@@ -1,6 +1,6 @@
 let handler = async (m, { conn, text }) => {
 	
-    if (!text) return conn.reply(m.chat, 'Harap Masukan Teks yang akan direpeat!', m)
+    if (!text) return conn.reply(m.chat, 'Por favor ingrese el texto a repetir!', m)
 	
   conn.reply(m.chat, `
 ${text}
