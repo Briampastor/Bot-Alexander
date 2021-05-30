@@ -32,7 +32,7 @@ module.exports = {
           if (!'autolevelup' in user) user.autolevelup = false
         } else global.DATABASE._data.users[m.sender] = {
           exp: 0,
-          limit: 100,
+          limit: 5,
           lastclaim: 0,
           registered: false,
           name: this.getName(m.sender),
@@ -41,7 +41,7 @@ module.exports = {
           afk: -1,
           afkReason: '',
           banned: false,
-          level: 3,
+          level: 1,
           autolevelup: false,
         }
 
