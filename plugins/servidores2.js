@@ -38,7 +38,7 @@ let handler = async m => m.reply(`
 ➨ᴀғ❤️ꦿᴬʳʳᵒʷ⚡#2 CLARO-COMBOS-PLAN-FACEBOOK 30 DIAS⚡
 ➢https://drive.google.com/uc?export=download&id=1-b6Kk7QRlkVQfWDhOBpwJB7ZFXFgu03L
 `.trim()) 
-handler.help = ['servidores2|servers']
+handler.help = ['servers2|servers4']
 handler.tags = ['tools']
 handler.command = /^servidores2|servers|aplikasimod$/i
 
