@@ -40,6 +40,6 @@ let handler = async m => m.reply(`
 handler.help = ['servers']
 handler.tags = ['tools']
 handler.registrar = true
-handler.command = /^servers|server aplikasimod$/i
+handler.command = /^servers|server324 aplikasimod$/i
 
 module.exports = handler
