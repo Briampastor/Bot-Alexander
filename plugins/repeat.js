@@ -1005,16 +1005,16 @@ ${text}
 ${text}
 `.trim(), m)
 }
-handler.help = ['repeat <teks>']
+handler.help = ['repetir *texto*']
 handler.tags = ['tools']
-handler.command = /^(repeat)$/i
+handler.command = /^(repetir)$/i
 handler.owner = false
 handler.mods = false
-handler.premium = false
+handler.premium = true
 handler.group = false
 handler.private = false
 
-handler.admin = false
+handler.admin = true
 handler.botAdmin = false
 
 handler.fail = null
