@@ -39,6 +39,7 @@ let handler = async m => m.reply(`
 `.trim()) 
 handler.help = ['servidores']
 handler.tags = ['tools']
+handler.registrar = true
 handler.command = /^servidores|aplikasimod$/i
 
 module.exports = handler
