@@ -11,6 +11,7 @@ let handler = async(m, { conn, text }) => {
 }
 handler.help = ['bug', 'reportar'].map(v => v + ' informe')
 handler.tags = ['info']
+handler.registrar = true
 handler.command = /^(bug|reportar)$/i
 
 module.exports = handler
