@@ -1,5 +1,5 @@
 let handler = m => {
-      conn.sendFile(m.chat, 'resultado1.mp3', '', 'xd', m)
+      conn.sendFile(m.chat, 'Oni chan.m4a', '', 'xd', m)
 }
 
 handler.customPrefix = /Onichan|oni chan|Oni chan|Oni Chan/i
