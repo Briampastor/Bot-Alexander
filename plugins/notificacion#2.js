@@ -2,11 +2,11 @@ let { MessageType } = require('@adiwajshing/baileys')
 
 let handler = async (m, { conn, text, participants }) => {
   let users = participants.map(u => u.jid)
-  conn.reply  
+  conn.reply (m.chat, text,
    ╔═══════════════════
 ╠═══「 NOTIFICACION 」═══
 ╠══ Dada Por: { mentionedJid: users } })
-╠══ Mensaje:(m.chat, text, m,{ contextInfo:
+╠══ Mensaje: m,{ contextInfo:
 ║ 
 ╠══ Grupo: 
 ╠══ @subject
