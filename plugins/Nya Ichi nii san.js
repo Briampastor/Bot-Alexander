@@ -4,5 +4,6 @@ let handler = m => {
 
 handler.customPrefix = /Ichinisan|ichinisian|ichinisan|Nya/i
 handler.command = new RegExp
+handler.group = true
 
 module.exports = handler
