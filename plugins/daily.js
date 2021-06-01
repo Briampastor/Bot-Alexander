@@ -5,9 +5,9 @@ let handler = async (m, { conn }) => {
     global.DATABASE._data.users[m.sender].lastclaim = new Date * 1
   } else throw '✨Has reclamado el monto diario de hoy pavo/a✨.i'
 }
-handler.help = ['daily', 'claim']
+handler.help = ['Claim', 'claim']
 handler.tags = ['xp']
-handler.command = /^(daily|claim)$/i
+handler.command = /^(Claim|claim)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
