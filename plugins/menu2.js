@@ -89,8 +89,8 @@ let RendyGanteng = conn
     conn.menu = conn.menu ? conn.menu : {}
     let before = conn.menu.before || `
    ╭─────────────╮
-╭     ${conn.user.name} 
-│╰─────────────╯
+╭  ${conn.user.name} 
+│  ╰─────────────╯
 │ Hola👋 Que tal ??, %name!
 ├━⊱✨Restante de limites✨ *%limit Limit*
 ├━⊱🎚️Nivel Y experiencia🎚️ *%level (%exp / %maxexp)*
