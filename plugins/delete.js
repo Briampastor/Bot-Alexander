@@ -12,6 +12,6 @@ let handler = function (m) {
 handler.help = ['del', 'delete','borrar']
 handler.tags = ['info']
 
-handler.command = /^del(ete)?$/i
+handler.command = /^del(ete)?$|^bo(rrar)?$/i
 
 module.exports = handler
