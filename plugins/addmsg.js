@@ -2,11 +2,11 @@ let handler = async (m, { command, usedPrefix, text }) => {
     let M = m.constructor
     let which = command.replace(/add/i, '')
     if (!m.quoted) throw 'Reply Pesan!'
-    if (!text) throw `Gunakan *${usedPrefix}list${which}* untuk melihat list nya`
+    if (!text) throw `Utilizar *${usedPrefix}list${which}* para ver la lista`
     let msgs = global.DATABASE._data.msgs
     if (text in msgs) throw `'${text}' telah terdaftar di list pesan`
     msgs[text] = M.toObject(await m.getQuotedObj())
-    m.reply(`Berhasil menambahkan pesan di list pesan sebagai '${text}'
+    m.reply(`Mensaje agregado exitosamente en la lista de mensajes como '${text}'
     
 Akses dengan ${usedPrefix}get${which} ${text}`)
 }
