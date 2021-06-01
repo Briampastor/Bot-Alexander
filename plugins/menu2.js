@@ -95,7 +95,7 @@ let RendyGanteng = conn
 │ Hola👋 Que tal ??, %name!
 ├━⊱✨Restante de limites✨ *%limit Limit*
 ├━⊱🎚️Nivel Y experiencia🎚️ *%level (%exp / %maxexp)*
-├━⊱%totalexp XP en Total
+├━⊱ *%totalexp* XP en Total
 ├━⊱Fecha📅: *%week %weton, %date*
 ├━⊱Hora⌚: *%time*
 ├━⊱⌛Tiempo de actividad⌛: *%uptime (%muptime)*
