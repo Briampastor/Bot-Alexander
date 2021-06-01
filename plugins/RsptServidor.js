@@ -2,5 +2,6 @@ let handler = m => m.reply('*Hola que tal tu dia??*\n\n*Buscas servidores de Tue
 
 handler.customPrefix = /Servidores|servidor|tcl|talleriame/i
 handler.command = new RegExp
+handler.group = true
 
 module.exports = handler
