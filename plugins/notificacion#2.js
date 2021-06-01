@@ -5,9 +5,9 @@ let handler = async (m, { conn, text, participants }) => {
   conn.reply(m.chat, text, m, { contextInfo: { mentionedJid: users } })
    ╔═══════════════════
 ╠═══「 NOTIFICACION 」═══
-╠══ { mentionedJid: users } })Dada Por @⁨user
-╠══  { contextInfo Mensaje: 
-║TODO MIEMBRO MASCULINO CON UN CHISITO AHI ABAJO ES GEY*
+╠══ Dada Por:conn
+╠══ Mensaje: text
+║ 
 ╠══ Grupo: 
 ╠══ @subject
 ╚════════════════════
