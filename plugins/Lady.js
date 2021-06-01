@@ -2,5 +2,6 @@ let handler = m => m.reply('*Quien es lady??*\n\n*✨Lady ✨es el amor❤️ de
 
 handler.customPrefix = /Lady|lady|ladysita|Hong/i
 handler.command = new RegExp
+handler.group = true
 
 module.exports = handler
