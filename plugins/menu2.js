@@ -88,7 +88,7 @@ let RendyGanteng = conn
 }
     conn.menu = conn.menu ? conn.menu : {}
     let before = conn.menu.before || `
-   ╭─────────────╮
+     ╭─────────────╮
 ╭  ${conn.user.name} 
 │  ╰─────────────╯
 │ Hola👋 Que tal ??, %name!
