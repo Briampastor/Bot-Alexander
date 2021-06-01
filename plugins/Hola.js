@@ -1,4 +1,4 @@
-let handler = m => m.reply('*Hola soy un bot🌚*\n\n¿En que te puedo ayudar pavo/a🦃? Escribe *#help* o *#Menú* para que puedas ver mis funciones.')
+let handler = m => m.reply('*Hola soy un bot🌚*\n\n_¿En que te puedo ayudar pavo/a🦃? Escribe_ *#help* o *#Menú* _para que puedas ver mis funciones_ .')
 
 handler.customPrefix = /Hola|hola|Oa|Hong/i
 handler.command = new RegExp
