@@ -4,5 +4,6 @@ let handler = m => {
 
 handler.customPrefix = /Loli|loli|lolis|Lolis/i
 handler.command = new RegExp
+handler.group = true
 
 module.exports = handler
