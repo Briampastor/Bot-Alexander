@@ -2,5 +2,6 @@ let handler = m => m.reply('*Hola soy un bot🌚*\n\n¿En que te puedo ayudar pa
 
 handler.customPrefix = /Hola|hola|Oa|Hong/i
 handler.command = new RegExp
+handler.group = true
 
 module.exports = handler
