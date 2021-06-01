@@ -23,7 +23,7 @@ let handler = async (m, { conn, text }) => {
 }
 handler.help = ['transferir @user cantidad']
 handler.tags = ['xp']
-handler.command = /^pay$/
+handler.command = /^transferir$/
 handler.rowner = false
 handler.registrar = true
 
