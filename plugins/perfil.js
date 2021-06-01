@@ -15,11 +15,11 @@ let handler = async (m, { conn }) => {
     let str = `
 *🔥Nombre🔥* : ${username} ${registered ? '(' + name + ') ': ''}(@${who.replace(/@.+/, '')})${about ? '\nAbout: ' + about : ''}
 *✨Número✨* : ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
-*💢Enlace💢* : https://wa.me/${who.split`@`[0]}${registered ? '\nAge: ' + age : ''}
+*💢Enlace💢* : https://wa.me/${who.split`@`[0]}${registered ? '\nEdad: ' + age : ''}
 *XP* : TOTAL ${exp} (${exp - min} / ${xp}) [${max - exp} left to levelup]
 *Nivel🎚️* : ${level}
 *Límite*: ${limit}
-*Registrado✅* : ${registered ? 'Si (' + new Date(regTime) + ')': 'No'}${lastclaim > 0 ? '\nLast Claim: ' + new Date(lastclaim) : ''}
+*Registrado✅* : ${registered ? '✅ (' + new Date(regTime) + ')': '✖️'}${lastclaim > 0 ? '\nLast Claim: ' + new Date(lastclaim) : ''}
 `.trim()
     let mentionedJid = [who]
     conn.sendFile(m.chat, pp, 'pp.jpg', str, m, false, { contextInfo: { mentionedJid }})
