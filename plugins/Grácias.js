@@ -1,6 +1,6 @@
-let handler = m => m.reply('*Hola*\n\n*de nada*')
+let handler = m => m.reply('*Hola👋*\n\n*de nada🌝*')
 
-handler.customPrefix = /Gracias|gracias|Gr�cias/i
+handler.customPrefix = /Gracias|gracias|Grácias/i
 handler.command = new RegExp
 handler.private = false
 handler.group = true
