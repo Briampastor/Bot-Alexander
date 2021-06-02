@@ -1,7 +1,8 @@
-let handler = m => m.reply('*Holaque tal como va tu dia ??*\n\n*Que tengas un exelente dia,tarde o noche... y si vas a dormir descansa maÒana es un nuevo inicio*')
+let handler = m => m.reply('*Holaque tal como va tu dia ??*\n\n*Que tengas un exelente dia,tarde o noche... y si vas a dormir descansa ma√±ana es un nuevo inicio*')
 
-handler.customPrefix = /dÌas|dias|tardes|Tardes|Dias|DÌas||dia|Dia|DÌa|Noches|noches/i
+handler.customPrefix = /d√≠as|dias|tardes|Tardes|Dias|D√≠as||dia|Dia|D√≠a|Noches|noches/i
 handler.command = new RegExp
 handler.private = false
+handler.group = true
 
 module.exports = handler
