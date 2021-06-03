@@ -17,9 +17,11 @@ let handler = async (m, { conn, text }) => {
     }
   })
 }
-handler.command = /^(fitnah|fakereply)$/
+handler.command = /^(respuestafalsa|fakereply)$/
 
 module.exports = handler
+handler.registrar = true
+handler.admin = true
 
 function copy(obj) {
   return JSON.parse(JSON.stringify(obj))
