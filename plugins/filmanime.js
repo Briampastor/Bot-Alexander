@@ -9,9 +9,9 @@ let handler = async(m, { conn, text }) => {
     conn.reply(m.chat, resultado, m)
 	})
 }
-handler.help = ['nombre del anime'].map(v => v + ' Película')
+handler.help = ['nombre de pelicula'].map(v => v + ' Película')
 handler.tags = ['tools']
-handler.command = /^(buscaranime)$/i
+handler.command = /^(buscarpeli)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
