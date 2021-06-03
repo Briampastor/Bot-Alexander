@@ -21,10 +21,11 @@ let handler = async (m, { conn, text }) => {
     m.reply(`(${-poin} Limit) + (${-pjk} Limit (Pajak 2%)) = ( ${-limit} Limit)`)
     conn.fakeReply(m.chat, `+${poin} Limit`, who, m.text)
 }
-handler.help = ['paylimit @user <amount>']
+handler.help = ['Transferirlimite @user Monto']
 handler.tags = ['xp']
-handler.command = /^paylimit$/
+handler.command = /^transferirlimite$/
 handler.rowner = false
+handler.registrar = true
 
 module.exports = handler
 
