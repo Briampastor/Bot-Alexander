@@ -1,6 +1,6 @@
 let handler = m =>{
 
-      conn.sendFile(m.chat, 'Editado#1.mp4', '', 'xd', m)
+      conn.sendFile(m.chat, 'Editado#1.mp4', '', '✨𝐁𝐨𝐭 𝐀𝐫𝐫𝐨𝐰✨', m)
 
 }
 
