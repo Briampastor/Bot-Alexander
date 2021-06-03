@@ -9,7 +9,7 @@ let handler = async(m, { conn, text }) => {
     conn.reply(m.chat, hasil, m)
 	})
 }
-handler.help = ['filmanime'].map(v => v + ' <film>')
+handler.help = ['nombre de pelicula'].map(v => v + ' <film>')
 handler.tags = ['tools']
 handler.command = /^(filmanime)$/i
 handler.owner = false
