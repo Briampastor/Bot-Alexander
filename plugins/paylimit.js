@@ -19,7 +19,7 @@ let handler = async (m, { conn, text }) => {
     users[who].limit += poin
 
     m.reply(`(${-poin} Limit) + (${-pjk} Limit (Pajak 2%)) = ( ${-limit} Limit)`)
-    conn.fakeReply(m.chat, `+${poin} Limit`, who, m.text)
+    conn.fakeReply(m.chat, `+${poin} limite transferido con exito✅`, who, m.text)
 }
 handler.help = ['Transferirlimite @user Monto']
 handler.tags = ['xp']
