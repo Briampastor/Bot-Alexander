@@ -1,13 +1,13 @@
 let { MessageType } = require('@adiwajshing/baileys')
 let pajak = 0.02
 let handler = async (m, { conn, text }) => {
-    if (!text) throw 'Masukkan jumlah Limit yang akan diberi'
+    if (!text) throw '*✨Ingrese la cantidad de Límite que se otorgará✨*'
     let who
     if (m.isGroup) who = m.mentionedJid[0]
     else who = m.chat
-    if (!who) throw 'Tag salah satu lah'
+    if (!who) throw '*Etiqueta uno pavo/a👻*'
     let txt = text.replace('@' + who.split`@`[0], '').trim()
-    if (isNaN(txt)) throw 'Hanya angka'
+    if (isNaN(txt)) throw '*✴️Solo números porfavor✴️*'
     let poin = parseInt(txt)
     let limit = poin
     let pjk = Math.ceil(poin * pajak)
