@@ -19,7 +19,7 @@ let handler = async (m, { conn }) => {
 *XP* : TOTAL ${exp} (${exp - min} / ${xp}) [${max - exp} left to levelup]
 *Nivel🎚️* : ${level}
 *Límite*: ${limit}
-*Registrado✅* : ${registered ? '✓ (' + new Date(regTime) + ')': '✖️'}${lastclaim > 0 ? '\nLast Claim: ' + new Date(lastclaim) : ''}
+*Registrado✅* : ${registered ? 'Yes (' + new Date(regTime) + ')': 'No'}${lastclaim > 0 ? '\nLast Claim: ' + new Date(lastclaim) : ''}
 `.trim()
     let mentionedJid = [who]
     conn.sendFile(m.chat, pp, 'pp.jpg', str, m, false, { contextInfo: { mentionedJid }})
