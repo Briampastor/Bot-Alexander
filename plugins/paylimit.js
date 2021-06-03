@@ -14,7 +14,7 @@ let handler = async (m, { conn, text }) => {
     limit += pjk
     if (limit < 1) throw 'Minimal 1'
     let users = global.DATABASE._data.users
-    if (limit > users[m.sender].limit) throw 'Limit tidak mencukupi untuk mentransfer'
+    if (limit > users[m.sender].limit) throw '*✨Límite insuficiente para transferir pavo/a✨*'
     users[m.sender].limit -= limit
     users[who].limit += poin
 
