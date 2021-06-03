@@ -1,5 +1,5 @@
 let handler = m => {
-      conn.sendFile(m.chat, 'media/'Editado#1.mp4', '', 'xd', m)
+      conn.sendFile(m.chat,'media/'Editado#1.mp4', '', 'xd', m)
 }
 
 handler.customPrefix = /Edit1|editado1/i
