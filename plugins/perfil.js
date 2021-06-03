@@ -18,8 +18,8 @@ let handler = async (m, { conn }) => {
 *💢Enlace💢* : https://wa.me/${who.split`@`[0]}${registered ? '\n*✨Edad✨:* ' + age : ''}
 *XP* : TOTAL ${exp} (${exp - min} / ${xp}) [${max - exp} left to levelup]
 *Nivel🎚️* : ${level}
-*Límite*: ${limit}
-*Registrado✅* : ${registered ? 'Yes (' + new Date(regTime) + ')': 'No'}${lastclaim > 0 ? '\nLast Claim: ' + new Date(lastclaim) : ''}
+*⚡Límites actuales⚡*: ${limit}
+*Registrado* : ${registered ? 'Yes (' + new Date(regTime) + ')': 'No'}${lastclaim > 0 ? '\nLast Claim: ' + new Date(lastclaim) : ''}
 `.trim()
     let mentionedJid = [who]
     conn.sendFile(m.chat, pp, 'pp.jpg', str, m, false, { contextInfo: { mentionedJid }})
