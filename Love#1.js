@@ -4,7 +4,7 @@ let handler = m =>{
 
 }
 
-handler.customPrefix = /Editado2|editado2/i
+handler.customPrefix = /Love1|love2/i
 handler.command = new RegExp
 handler.private = false
 handler.group = true
