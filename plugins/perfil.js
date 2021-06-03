@@ -16,7 +16,7 @@ let handler = async (m, { conn }) => {
 *🔥Nombre🔥* : ${username} ${registered ? '(' + name + ') ': ''}(@${who.replace(/@.+/, '')})${about ? '\n*Descripción🧾:* ' + about : ''}
 *✨Número✨* : ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
 *💢Enlace💢* : https://wa.me/${who.split`@`[0]}${registered ? '\n*✨Edad✨:* ' + age : ''}
-*XP* : TOTAL ${exp} (${exp - min} / ${xp}) [${max - exp} left to levelup]
+*XP* : TOTAL ${exp} (${exp - min} / ${xp}) [${max - exp} subida de limites]
 *Nivel🎚️* : ${level}
 *⚡Límites actuales⚡*: ${limit}
 *Registrado* : ${registered ? 'Yes (' + new Date(regTime) + ')': 'No'}${lastclaim > 0 ? '\nLast Claim: ' + new Date(lastclaim) : ''}
