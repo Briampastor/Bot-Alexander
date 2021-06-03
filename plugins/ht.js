@@ -49,7 +49,7 @@ function ht(text = '') {
       '[im][wa]blend=all_mode=multiply:all_opacity=1'
     ]
 
-    let o = 1 * new Date + '_harta_tahta.png'
+    let o = 1 * new Date + '_Bot_Arrow.png'
     o = path.join(tmp, o)
     let args = [
       '-y',
