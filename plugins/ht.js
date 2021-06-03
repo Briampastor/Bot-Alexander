@@ -39,7 +39,7 @@ function ht(text = '') {
     let layers = [
       `[v:0]scale=${s}${format}[im]`,
       textArgs('✨𝐁𝐨𝐭', 'black', 'white', fsize, font, '(w-text_w)/2', `(h-text_h)/2-(text_h*${lh})`, w, h) + format + '[top]',
-      textArgs(' 𝐀𝐫𝐫𝐨𝐰✨', 'black', 'white', fsize, font, '(w-text_w)/2', `(h-text_h)/2`, w, h) + format + '[mid]',
+      textArgs('𝐀𝐫𝐫𝐨𝐰✨', 'black', 'white', fsize, font, '(w-text_w)/2', `(h-text_h)/2`, w, h) + format + '[mid]',
       textArgs(text, 'black', 'white', fsize, font, '(w-text_w)/2', `(h-text_h)/2+(text_h*${lh})`, w, h) + format + '[bot]',
       '[top][mid]blend=all_mode=addition[con]',
       '[con][bot]blend=all_mode=addition[txt]',
