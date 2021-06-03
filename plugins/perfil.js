@@ -13,7 +13,7 @@ let handler = async (m, { conn }) => {
     let { min, xp, max } = levelling.xpRange(level, global.multiplier)
     let username = conn.getName(who)
     let str = `
-*🔥Nombre🔥* : ${username} ${registered ? '(' + name + ') ': ''}(@${who.replace(/@.+/, '')})${about ? '\n*Descripción:* ' + about : ''}
+*🔥Nombre🔥* : ${username} ${registered ? '(' + name + ') ': ''}(@${who.replace(/@.+/, '')})${about ? '\n*Descripción🧾:* ' + about : ''}
 *✨Número✨* : ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
 *💢Enlace💢* : https://wa.me/${who.split`@`[0]}${registered ? '\n*✨Edad✨:* ' + age : ''}
 *XP* : TOTAL ${exp} (${exp - min} / ${xp}) [${max - exp} left to levelup]
