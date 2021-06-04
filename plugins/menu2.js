@@ -93,16 +93,16 @@ let RendyGanteng = conn
 │    ${conn.user.name}   │
 ╰─────────────╯
 │ Hola👋 Que tal ??, %name!
-├━⊱✨Límites✨ *%limit Limit*
-├━⊱🎚️Nivel: *%level* 
-├━⊱Experiencia: *(%exp / %maxexp)*
-├━⊱ *%totalexp* XP en Total
-├━⊱Fecha: *%week %weton, %date*
-├━⊱Hora⌚: *%time*
-├━⊱⌛Tiempo de vida⌛: *%uptime*
-├━⊱🗃️Base de datos🗃️: *%rtotalreg of %totalreg*
-├━⊱📲Sistema operativo : *${conn.user.phone.device_manufacturer}*
-├━⊱✅version : *${conn.browserDescription[2]}*
+├━⊱ *Límites✨:* %limit Limit
+├━⊱ *Nivel🎚️:* %level
+├━⊱ *Experiencia🔥:* (%exp / %maxexp)
+├━⊱ *XP en Total:* %totalexp
+├━⊱ *Fecha:* %week %weton, %date
+├━⊱ *Hora⌚:* %time
+├━⊱ *⌛Vida⌛:* %uptime
+├━⊱ *🗃️Base de datos🗃️:* %rtotalreg of %totalreg
+├━⊱ *📲Sistema operativo:* ${conn.user.phone.device_manufacturer}
+├━⊱ *✅version:* ${conn.browserDescription[2]}
 │     *Instagram*
 │www.instagram.com/arrow_11012020/
 │    🔥𝐌𝐲 𝐜𝐚𝐧𝐚𝐥 𝐝𝐞 𝐲𝐨𝐮𝐭𝐮𝐛𝐞🔥
