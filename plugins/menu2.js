@@ -97,10 +97,10 @@ let RendyGanteng = conn
 ├━⊱ *Nivel🎚️:* %level
 ├━⊱ *Experiencia🔥:* (%exp / %maxexp)
 ├━⊱ *XP en Total:* %totalexp
-├━⊱ *Fecha:* %week %weton, %date
+├━⊱ *Fecha:* %week %weton
 ├━⊱ *Hora⌚:* %time
 ├━⊱ *⌛Vida⌛:* %uptime
-├━⊱ *🗃️Base de datos🗃️:* %rtotalreg of %totalreg
+├━⊱ *Base de datos🗃️:* %rtotalreg of %totalreg
 ├━⊱ *📲Sistema operativo:* ${conn.user.phone.device_manufacturer}
 ├━⊱ *✅version:* ${conn.browserDescription[2]}
 │     *Instagram*
@@ -112,7 +112,7 @@ let RendyGanteng = conn
 ├━⊱ *💢𝗢𝗯𝗲𝗱𝗲𝗰𝗲 𝗹𝗮𝘀 𝗿𝗲𝗴𝗹𝗮𝘀 💢*
 ├━⊱ *❌ Prohibido llamar o escribir al bot📲*
 ├━⊱ *❌Prohibido spam al bot☢*
-├━⊱ *❌No agregar al bot a otros grupos♻*
+├━⊱ *❌No agregar a otros grupos*
 ├━⊱ *✅𝑺𝒖𝒔𝒄𝒓𝒊́𝒃𝒆𝒕𝒆 𝒂 𝒎𝒊 𝒄𝒂𝒏𝒂𝒍*
 │%readmore
 ├━⊱ _creditos_ ✔️ *Arrow_OG*
