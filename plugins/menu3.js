@@ -153,9 +153,9 @@ let RendyGanteng = conn
     throw e
   }
 }
-handler.help = ['menu','help','?','Arrowbot']
+handler.help = ['menu','help','?','Arrow']
 handler.tags = ['main']
-handler.command = /^(menu|help|Inicio|Arrowbot\?)$/i
+handler.command = /^(menu|help|Inicio|Arrow\?)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
