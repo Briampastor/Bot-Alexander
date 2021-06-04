@@ -97,7 +97,7 @@ let RendyGanteng = conn
 ├━⊱ *Nivel🎚️:* %level
 ├━⊱ *Experiencia🔥:* (%exp / %maxexp)
 ├━⊱ *XP en Total:* %totalexp
-├━⊱ *Fecha:* %week %weton,%date
+├━⊱ *Fecha:* %date
 ├━⊱ *Hora⌚:* %time
 ├━⊱ *⌛Vida⌛:* %uptime
 ├━⊱ *Base de datos🗃️:* %rtotalreg of %totalreg
