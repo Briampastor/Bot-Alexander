@@ -93,14 +93,14 @@ let RendyGanteng = conn
 │    ${conn.user.name}   │
 ╰─────────────╯
 │ Hola👋 Que tal ??, %name!
-├━⊱✨Restante de limites✨ *%limit Limit*
+├━⊱✨Límites✨ *%limit Limit*
 ├━⊱🎚️Nivel: *%level* 
 ├━⊱Experiencia: *(%exp / %maxexp)*
 ├━⊱ *%totalexp* XP en Total
-├━⊱Fecha📅: *%week %weton, %date*
+├━⊱Fecha: *%week %weton, %date*
 ├━⊱Hora⌚: *%time*
-├━⊱⌛Tiempo de actividad⌛: *%uptime (%muptime)*
-├━⊱🗃️Base de datos🗃️: %rtotalreg of %totalreg
+├━⊱⌛Tiempo de vida⌛: *%uptime*
+├━⊱🗃️Base de datos🗃️: *%rtotalreg of %totalreg*
 ├━⊱📲Sistema operativo : *${conn.user.phone.device_manufacturer}*
 ├━⊱✅version : *${conn.browserDescription[2]}*
 │     *Instagram*
