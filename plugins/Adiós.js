@@ -1,5 +1,5 @@
 let handler = m => m.reply('*Adiós👋* %name, *✨Que descanses✨*')
-
+const { MessageType } = require('@adiwajshing/baileys')
 handler.customPrefix = /Adiós|Adios|adios/i
 handler.command = new RegExp
 handler.private = false
