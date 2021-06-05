@@ -10,13 +10,13 @@ let handler = async (m, { conn, command, args }) => {
 handler.help = ['deletechat', 'deletechat group', 'mutechat', 'mutechat group']
 handler.tags = ['owner']
 handler.command = /^(clear|delete|mute)chat$/i
-handler.owner = true
+handler.owner = false
 handler.mods = false
 handler.premium = false
 handler.group = false
 handler.private = false
 
-handler.admin = false
+handler.admin = true
 handler.botAdmin = false
 
 handler.fail = null
