@@ -1,4 +1,4 @@
-let handler = m => m.reply('*Adiós👋* %name, *✨Que descanses✨*')
+let handler = m => m.reply('*Adiós👋* @user , *✨Que descanses✨*')
 
 
 
