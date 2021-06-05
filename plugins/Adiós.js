@@ -1,4 +1,4 @@
-let handler = m => m.reply('*Adiós👋* @user , *✨Que descanses✨*')
+let handler = m => m.reply('*Adiós👋* ${conn.user.name}, *✨Que descanses✨*')
 
 handler.customPrefix = /Adiós|Adios|adios/i
 handler.command = new RegExp
