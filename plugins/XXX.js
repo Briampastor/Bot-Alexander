@@ -1,9 +1,9 @@
 let handler  = async (m, { conn }) => {
       conn.sendFile(m.chat, 'Bot-Arrow10.png', '', text.trim(), m)
 }
-handler.help = ['xxx1']
+handler.help = ['xxx']
 handler.tags = ['premium']
-handler.command = /^(xxx1)$/i
+handler.command = /^(xxx)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
