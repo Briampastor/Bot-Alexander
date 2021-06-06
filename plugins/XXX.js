@@ -13,6 +13,6 @@ handler.admin = false
 handler.botAdmin = false
 handler.fail = null
 handler.registrar = true
-handler.limit = true
+handler.limit = false
 handler.exp = 100
 module.exports = handler
