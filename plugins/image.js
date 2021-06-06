@@ -33,9 +33,9 @@ conn.sendFile(m.chat, buf, 'foto.jpg', str, m)
 });
 }
 
-handler.help = ['image <query>','pinterest <query>']
-handler.tags = ['image']
-handler.command = /^(image|pinterest)$/i
+handler.help = ['imagen2 <query>','pinterest <query>']
+handler.tags = ['premium']
+handler.command = /^(imagen2|pinterest)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
