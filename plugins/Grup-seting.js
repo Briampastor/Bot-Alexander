@@ -7,8 +7,8 @@ let handler  = async (m, { conn, args, usedPrefix, command }) => {
 	await conn.updatePresence(m.chat, Presence.composing)
 	if (isClose === undefined)
 		throw `
-*¡Formato erróneo! ✨Ejemplo✨:*
-
+*_¡Formato erróneo!_*
+*✨Ejemplo✨:*
   *➣ ${usedPrefix + command} cerrado*
   *➣ ${usedPrefix + command} abierto*
 `.trim()
