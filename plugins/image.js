@@ -34,7 +34,7 @@ conn.sendFile(m.chat, buf, 'foto.jpg', str, m)
 }
 
 handler.help = ['imagen2 <query>','pinterest <query>']
-handler.tags = ['premium']
+handler.tags = ['tools']
 handler.command = /^(imagen2|pinterest)$/i
 handler.owner = false
 handler.mods = false
