@@ -1,5 +1,5 @@
 let handler  = async (m, { conn }) => {
-      conn.sendFile(m.chat, 'Bot-Arrow10.png', '', text.trim(), m)
+      conn.sendFile(m.chat, 'XXX.png', '', text.trim(), m)
 }
 handler.help = ['xxx']
 handler.tags = ['premium']
