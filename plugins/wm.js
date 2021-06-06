@@ -18,6 +18,6 @@ let handler = async (m, { conn, text }) => {
 }
 handler.help = ['wm Nombre del paquete|Autor']
 handler.tags = ['sticker']
-handler.command = /^wm$/i
+handler.command = /^wm$/^Stiker2$/i
 
 module.exports = handler
