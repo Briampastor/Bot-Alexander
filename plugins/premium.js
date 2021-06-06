@@ -1,23 +1,23 @@
 let handler = async m => m.reply(`
-╭─「 BUY PREMIUM 」
+╭─「 COMPRAR PREMIUM 」
 │ 
-│ > Keuntungan :
-│• Limit Tidak Terbatas!
-│• Fitur Premium Dapat Digunakan!
-│• Dapat Menambahkan Bot Ke Grup!
+│ > Ventajas :
+│• ¡Límites ilimitados!
+│• ¡Funciones premium utilizables!
+│• ¡Puede agregar bots a grupos!
 │
 │ > Bonus :
-│• Diberikan Kode Gift Seminggu!
+│• ¡Recibido un código de regalo de la semana!
 │
-│ > Harga :
-│• 10K / Bulan (4 Minguu)
-│• 30K / Tahun (12 Bulan)
+│ > Precio :
+│• 10K / Mes (4 Minguu)
+│• 30K / Año (12 Mes)
 │• 50K / VIP (Permanen)
 │
-│ > Pembayaran :
-│• https://saweria.co/RC047
+│ > Pago :
+│• https://wa.me/593960178180
 ╰────
-`.trim()) // Tambah sendiri kalo mau
+`.trim()) // Agréguese si quiere
 handler.help = ['premium']
 handler.tags = ['premium']
 handler.command = /^(premium)$/i
