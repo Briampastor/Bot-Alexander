@@ -8,7 +8,7 @@ let url = await fetch('https://api.fdci.se/sosmed/rep.php?gambar=' + encodeURICo
 //let url = await fetch('https://api.fdci.se/sosmed/rep.php?gambar=' + encodeURIComponent(text))
 let samu = await url.json()
 let erest = samu[Math.floor(Math.random() * samu.length)]
-            await conn.sendFile(m.chat, erest, '', 'Fuente: *' + encodeURIComponent(text) + '* _BY:_ , m)
+            await conn.sendFile(m.chat, erest, '', 'Fuente: *' + encodeURIComponent(text) + '*, m)
                                 
 
 {
