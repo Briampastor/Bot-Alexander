@@ -8,9 +8,11 @@ let handler  = async (m, { conn, args, usedPrefix, command }) => {
 	if (isClose === undefined)
 		throw `
 *_¡Formato erróneo!_*
-*✨Ejemplo✨:*
-  *➣ ${usedPrefix + command} cerrado*
-  *➣ ${usedPrefix + command} abierto*
+  
+   ──────❲ *✨Ejemplo✨:* ❳────────
+   
+  *├━⊱ ${usedPrefix + command} cerrado*
+  *├━⊱ ${usedPrefix + command} abierto*
 `.trim()
 	await conn.groupSettingChange(m.chat, GroupSettingChange.messageSend, isClose)
 }
