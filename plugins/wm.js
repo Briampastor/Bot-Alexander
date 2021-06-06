@@ -16,7 +16,7 @@ let handler = async (m, { conn, text }) => {
     else throw 'Conversion failed'
   }
 }
-handler.help = ['wm <packname>|<author>']
+handler.help = ['wm Nombre del paquete|Autor']
 handler.tags = ['sticker']
 handler.command = /^wm$/i
 
