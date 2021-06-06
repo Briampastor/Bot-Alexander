@@ -34,7 +34,7 @@ let handler = async (m, { conn, usedPrefix, command, text, args, isROwner }) => 
       return m.reply(`
 List option: bienvenida | eliminar | publico | antienlace | autosubirnivel | antitoxicos
 Contoh:
-${usedPrefix}Axtivar Bienvenida
+${usedPrefix}Activar Bienvenida
 ${usedPrefix}Desactivar Bienvenida
 `.trim())
   }
