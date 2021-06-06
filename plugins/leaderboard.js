@@ -16,13 +16,13 @@ Tú: *${usersExp.indexOf(m.sender) + 1}* de *${usersExp.length}*
 
 ${sortedExp.slice(0, len).map(({ jid, exp }, i) => `${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *${exp} Exp*`).join`\n`}
 
-• *Limit Leaderboard Top ${len}* •
-Kamu: *${usersLim.indexOf(m.sender) + 1}* dari *${usersLim.length}*
+• *Top de límites ${len}* •
+Tú: *${usersLim.indexOf(m.sender) + 1}* de *${usersLim.length}*
 
 ${sortedLim.slice(0, len).map(({ jid, limit }, i) => `${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *${limit} Exp*`).join`\n`}
 
-• *Level Leaderboard Top ${len}* •
-Kamu: *${usersLevel.indexOf(m.sender) + 1}* dari *${usersLevel.length}*
+• *Top de Niveles ${len}* •
+Tú: *${usersLevel.indexOf(m.sender) + 1}* de *${usersLevel.length}*
 
 ${sortedLevel.slice(0, len).map(({ jid, level }, i) => `${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *Level ${level}*`).join`\n`}
 `.trim()
