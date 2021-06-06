@@ -24,7 +24,7 @@ let handler = async (m, { conn, usedPrefix, command, text, args, isROwner }) => 
       global.opts['self'] = !isActivar
       break
     case 'antienlace':
-      chat.antiLink = isActivar
+      chat.antienlace = isActivar
       break
     case 'autosubirnivel':
       isUser = true
