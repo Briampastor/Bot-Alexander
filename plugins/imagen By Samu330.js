@@ -9,7 +9,7 @@ let url = await fetch('https://api.fdci.se/sosmed/rep.php?gambar=' + encodeURICo
 let samu = await url.json()
 let erest = samu[Math.floor(Math.random() * samu.length)]
             await conn.sendFile(m.chat, erest, '', 'Fuente: *' + encodeURIComponent(text) + '*, m)
-                                
+            await conn.sendFile(m.chat, erest, '', '_BY:_ ✨𝐁𝐨𝐭 𝐀𝐫𝐫𝐨𝐰✨', m)                      
 
 {
 
