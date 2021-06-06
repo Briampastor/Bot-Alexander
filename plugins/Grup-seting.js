@@ -7,16 +7,16 @@ let handler  = async (m, { conn, args, usedPrefix, command }) => {
 	await conn.updatePresence(m.chat, Presence.composing)
 	if (isClose === undefined)
 		throw `
-*Format salah! Contoh :*
+*Formato incorrecto! Ejemplo :*
 
-  *○ ${usedPrefix + command} close*
-  *○ ${usedPrefix + command} open*
+  *○ ${usedPrefix + command} cerrado*
+  *○ ${usedPrefix + command} abierto*
 `.trim()
 	await conn.groupSettingChange(m.chat, GroupSettingChange.messageSend, isClose)
 }
-handler.help = ['group *open / close*']
+handler.help = ['grupo *abierto / cerrado*']
 handler.tags = ['group']
-handler.command = /^(group)$/i
+handler.command = /^(grupo)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
