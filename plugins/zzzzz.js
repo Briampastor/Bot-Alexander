@@ -1,9 +1,9 @@
 let handler = (m, { usedPrefix, command }) => {
 let name = conn.getName(m.sender)
  m.reply(`
-Maaf ${name},,
-Perintah *${m.text}*
-tidak terdaftar di ${usedPrefix}menu
+_Hola lo siento_ ${name},,
+El comando *${m.text}*
+_no está registrado en mi sistema porfavor para ver todas mis funciones usa_ ${usedPrefix}menu
 `.trim())
 }
 handler.command = new RegExp
