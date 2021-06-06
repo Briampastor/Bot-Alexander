@@ -15,7 +15,7 @@ let handler = async (m, { conn, args: [effect], text: txt }) => {
     throw e
   }
 }
-handler.help = ['textpro'].map(v => v + ' <effect> <text>|[text2]')
+handler.help = ['textpro2'].map(v => v + ' <effect> <text>|[text2]')
 handler.tags = ['tools']
 handler.command = /^(textpro)$/i
 
