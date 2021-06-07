@@ -31,8 +31,8 @@ module.exports = {
           if (!isNumber(user.level)) user.level = 0
           if (!'autolevelup' in user) user.autolevelup = false
         } else global.DATABASE._data.users[m.sender] = {
-          exp: 0,
-          limit: 5,
+          exp: 9999,
+          limit: 10,
           lastclaim: 0,
           registered: false,
           name: this.getName(m.sender),
@@ -339,8 +339,8 @@ global.dfail = (type, m, conn) => {
     premium: 'Este comando es solo para miembros _*Premium*_ !',
     group: 'Este comando solo se puede usar en grupos!',
 
-    admin: 'Este comando es solo para el grupo * Admin *!',
-    botAdmin: 'Haga que el bot sea * Admin * y use este comando!',
+    admin: 'Este comando es solo para el grupo *Admin* !',
+    botAdmin: 'Haga que el bot sea *Admin* y use este comando!',
     unreg: 'Regístrese para utilizar esta función escribiendo:\n\n*#registrar Nombre.Edad*\n\nEjemplo: *#registrar Arrow_OG.96*'
   }[type]
   if (msg) return m.reply(msg)
