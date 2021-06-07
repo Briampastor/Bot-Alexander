@@ -18,7 +18,7 @@ let handler = async (m, { conn, text }) => {
   users[m.sender].exp -= exp
   users[who].exp += xp
 
-  m.reply(`(${-xp} XP) + (${-pjk} XP (Pajak 2%)) = ( ${-exp} XP)`)
+  m.reply(`(${-xp} XP) + (${-pjk} XP (Impuesto 2%)) = ( ${-exp} XP)`)
   conn.fakeReply(m.chat, `+${xp} XP transferido con éxito✅`, who, m.text)
 }
 handler.help = ['transferir @user cantidad']
