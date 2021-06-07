@@ -9,7 +9,7 @@ ${command} *${text}*
     }
   } : {})
 }
-handler.help = ['gay', 'presumido', 'inteligente', 'hermoso', 'perro', 'loco', 'lesbiana', 'estresado', 'bulgar', 'grilla', 'chicotriste'].map(v => 'como' + v + ' siapa?')
+handler.help = ['gay', 'presumido', 'inteligente', 'hermoso', 'perro', 'loco', 'lesbiana', 'estresado', 'bulgar', 'grilla', 'chicotriste'].map(v => 'porcentaje' + v + ' siapa?')
 handler.tags = ['premium']
 handler.command = /^ porcentaje (gay | presumido | inteligente | hermoso | perro | loco | lesbiana | estresado | bulgar | grila | chicotriste) / i
 handler.owner = false
