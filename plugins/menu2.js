@@ -149,7 +149,7 @@ let RendyGanteng = conn
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).join`|`})`, 'g'), (_, name) => replace[name])
-    conn.sendFile(m.chat, 'Bot-Arrow10.png', '', text.trim(), m)
+    conn.sendFile(m.chat, 'Bot-Verificado2.png', '', text.trim(), m)
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
