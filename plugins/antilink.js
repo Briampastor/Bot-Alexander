@@ -1,7 +1,7 @@
 let handler = m => m
 
 let linkRegex = /chat.whatsapp.com\/([0-9A-Za-z]{20,24})/i
-let linkRegex = /https://www.google.com\/([0-9A-Za-z]{20,24})/i
+let linkRegex = /chat.google.com\/([0-9A-Za-z]{20,24})/i
 
 handler.before = function (m, { user, isAdmin, isBotAdmin }) {
 
