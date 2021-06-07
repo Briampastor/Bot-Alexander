@@ -73,7 +73,7 @@ Internet OUT: *${netsOut}*
     }
 }
 handler.help = ['', 'bot'].map(v => 'status' + v)
-handler.tags = ['about']
+handler.tags = ['tools']
 handler.command = /^(bot)?status(bot)?$/i
 handler.owner = false
 handler.mods = false
