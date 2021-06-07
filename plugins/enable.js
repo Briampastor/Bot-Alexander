@@ -23,7 +23,7 @@ let handler = async (m, { conn, usedPrefix, command, text, args, isROwner }) => 
       break
     default:
       return m.reply(`
-List option: welcome | delete | public | antilink | antitoxicos | bye | detect
+List option: welcome | delete | public | antilink | antitoxicos | bye | antispam
 
 Ejemplo:
 ${usedPrefix}enable welcome
