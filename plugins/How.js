@@ -9,12 +9,12 @@ ${command} *${text}*
     }
   } : {})
 }
-handler.help = ['gay', 'pintar', 'inteligente', 'hermoso', 'perro', 'loco', 'lesbiana', 'estresado', 'bulgar', 'zorra', 'chicotriste'].map(v => 'como' + v + ' siapa?')
+handler.help = ['gay', 'presumido', 'inteligente', 'hermoso', 'perro', 'loco', 'lesbiana', 'estresado', 'bulgar', 'grilla', 'chicotriste'].map(v => 'como' + v + ' siapa?')
 handler.tags = ['premium']
-handler.command = /^ como (gay | inteligente | hermoso | guapo | perro | loco | lesbiana | estresado | bulgar | zorra | chicotriste) / i
+handler.command = /^ como (gay | presumido | inteligente | hermoso | perro | loco | lesbiana | estresado | bulgar | grila | chicotriste) / i
 handler.owner = false
 handler.mods = false
-handler.premium = true
+handler.premium = false
 handler.group = false
 handler.private = false
 
