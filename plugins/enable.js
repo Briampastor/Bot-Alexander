@@ -31,7 +31,7 @@ ${usedPrefix}disable welcome
 `.trim())
   }
   m.reply(`
-*${type}* se establecio *${isEnable ? 'activado' : 'desactivado'}* en ${isAll ? 'este bot' : 'este chat'}
+*${type}* se a *${isEnable ? 'activado' : 'desactivado'}* en ${isAll ? 'este bot' : 'este chat'}
 `.trim())
 }
 handler.help = ['en', 'dis'].map(v => v + 'able <option>')
