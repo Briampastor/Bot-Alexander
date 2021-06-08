@@ -1,7 +1,7 @@
 let { performance } = require('perf_hooks')
 let handler = async (m, { conn }) => {
   let old = performance.now()
-  await m.reply('_🚀Realizando prueba de velocidad del bot-Arrow🚀..._')
+  await m.reply('*_Realizando prueba de velocidad del ✨𝐁𝐨𝐭 𝐀𝐫𝐫𝐨𝐰✨🚀..._*')
   let neww = performance.now()
   m.reply(neww - old + 'ms')
 }
