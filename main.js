@@ -116,7 +116,25 @@ global.reloadHandler = function () {
     conn.off('message-delete', conn.onDelete)
     conn.off('group-participants-update', conn.onParticipantsUpdate)
   }
-  conn.welcome = 'Hai, @user!\nSelamat datang di grup @subject'
+  conn.welcome = '*Bienvenido/a👋* 
+
+◪ *Bienvenido al grupo:*
+
+├─ @subject
+
+│
+
+├─ *Información:*
+
+├─ ❏ *Nombre:* @user
+
+├─ ❏ *Edad:* indefinite
+
+└─ ❏ *Rango:* integrante
+
+├─ ➣ ```Si deseas ver las funciones coloca:```#help ,#Menu o #Inicio
+
+*Respeta todas las reglas ya que si no  serás eliminado(ღ˘ω˘ღ)*'
   conn.bye = '*Adiós 👋* @user *pavo/a nadie te extrañara....!!!*'
   conn.spromote = '@user sekarang admin!'
   conn.sdemote = '@user sekarang bukan admin!'
