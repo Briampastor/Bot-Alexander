@@ -9,11 +9,11 @@ handler.before = function (m, { user }) {
   if (chat.antiLink && isLink) {
   m.reply('*Adiós👋 rompiste las reglas serás exterminado*')
   m.reply('*tienes 3 segundos para eliminar el link :v*')
-    m.reply('*En 3*!!')
-    m.reply('*2*!!')
-    m.reply('*1*!!')
+    m.reply('*En 3!!*')
+    m.reply('*2!!*')
+    m.reply('*1!!*')
     
-    m.reply('Eliminando!!')
+    m.reply('*Eliminando!!*')
 conn.groupRemove(m.chat, [m.sender])
     if (global.opts['restrict']) {
        if (!user.isAdmin) return true
