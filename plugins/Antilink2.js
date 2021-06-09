@@ -7,7 +7,7 @@ handler.before = function (m, { user }) {
   let isLink = linkRegex.exec(m.text)
 
   if (chat.antiLink && isLink) {
-  m.reply('*Adiós👋 rompiste las reglas serás exterminado*')
+  m.reply('*Adiós👋,rompiste las reglas serás exterminado....!!*')
   m.reply('*tienes 3 segundos para eliminar el link :v*')
     m.reply('*En 3!!*')
     m.reply('*2!!*')
