@@ -16,7 +16,7 @@ handler.before = function (m, { user, bot, groupMetadata }) {
         let isLinkThisGc = new RegExp(linkGC, 'g')
         let isgclink = isLinkThisGc.exec(m.text)
         if (isgclink) { 
-             m.reply('*Lol publica tu propio enlace de grupo :v*')
+             m.reply('*tienes 3 segundos para eliminar el link :v*')
         } else {
              this.groupRemove(m.chat, [m.sender])
         }
