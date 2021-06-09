@@ -7,7 +7,7 @@ handler.before = function (m, { user }) {
   let isLink = linkRegex.exec(m.text)
 
   if (chat.antiLink && isLink) {
-    m.reply('Eliminando!!')
+    m.reply('*Eliminando...!!*')
 conn.groupRemove(m.chat, [m.sender])
     if (global.opts['restrict']) {
        if (!user.isAdmin) return true
