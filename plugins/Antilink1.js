@@ -17,6 +17,9 @@ handler.before = function (m, { user, bot, groupMetadata }) {
         let isgclink = isLinkThisGc.exec(m.text)
         if (isgclink) { 
              m.reply('*tienes 3 segundos para eliminar el link :v*')
+          m.reply('*En 3*')
+          m.reply('*2*')
+          m.reply('*1*')
         } else {
              this.groupRemove(m.chat, [m.sender])
         }
