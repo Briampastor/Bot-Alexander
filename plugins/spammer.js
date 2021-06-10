@@ -3,9 +3,9 @@ const { MessageType } = require('@adiwajshing/baileys')
 let handler = async(m, { conn, text }) => {
 let [number, pesan] = text.split `|`
 
-    if (!number) return conn.reply(m.chat, 'Silahkan masukan nomor yang akan dispam', m)
-    if (!pesan) return conn.reply(m.chat, 'Silahkan masukan pesannya', m)
-    if (text > 500) return conn.reply(m.chat, 'Teks Kepanjangan!', m)
+    if (!number) return conn.reply(m.chat, 'Por favor ingrese el número al que se enviará spam', m)
+    if (!pesan) return conn.reply(m.chat, 'Por favor ingrese el mensaje', m)
+    if (text > 500) return conn.reply(m.chat, 'Texto largo!', m)
 
     let korban = `${number}`
     var nomor = m.sender
@@ -31,7 +31,7 @@ let [number, pesan] = text.split `|`
     conn.sendMessage(korban + '@s.whatsapp.net', spam9, MessageType.text)
     conn.sendMessage(korban + '@s.whatsapp.net', spam10, MessageType.text)
 
-    let logs = `[!] Berhasil mengirim spam wa ke nomor ${korban} 10 kali`
+    let logs = `[!] Se envió con éxito el correo no deseado al número ya valio verg ${korban} 10 kali`
     conn.reply(m.chat, logs, m)
 }
 handler.help = ['spam <nomor|pesan>', 'spamwa <nomor|pesan>']
