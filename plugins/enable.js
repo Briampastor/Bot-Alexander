@@ -35,6 +35,7 @@ ${usedPrefix}disable welcome
 `.trim())
 }
 handler.help = ['en', 'dis'].map(v => v + 'able <option>')
+handler.admin = true
 handler.tags = ['group', 'owner']
 handler.command = /^((en|dis)able|(tru|fals)e|(turn)?o(n|ff))$/i
 
