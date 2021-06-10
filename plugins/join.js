@@ -6,10 +6,10 @@ let handler = async (m, { conn, text }) => {
     let res = await conn.acceptInvite(code)
     m.reply(`Se unió con éxito al grupo ${res.gid}`)
 }
-handler.help = ['join [chat.whatsapp.com]']
+handler.help = ['agregarArrow chat.whatsapp.com']
 handler.tags = ['premium']
 
-handler.command = /^join$/i
+handler.command = /^agregarArrow$/i
 handler.admin = true
 handler.premium = true
 
