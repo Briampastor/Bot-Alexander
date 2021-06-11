@@ -5,7 +5,7 @@ let handler = async (m, { conn, usedPrefix }) => {
   if (!mime) throw `Etiqueta una Foto/Envia una imagen con el comando: ${usedPrefix}wait`
   if (!/image\/(jpe?g|png)/.test(mime)) throw `Lo siento, ${mime} no soportado`
   let img = await q.download()
-  await m.reply('Searching Anime Titles...')
+  await m.reply('*Buscando el título del anime...*')
   let anime = `data:${mime};base64,${img.toString('base64')}`
   let response = await fetch('https://trace.moe/api/search', {
     method: 'POST',
