@@ -14,6 +14,7 @@ let handler  = async (m, { conn, args, usedPrefix, command }) => {
   *├━⊱ ${usedPrefix + command} cerrado*
   *├━⊱ ${usedPrefix + command} abierto*
 `.trim()
+{m.reply('*Se cerró con exito✅*')}
 	await conn.groupSettingChange(m.chat, GroupSettingChange.messageSend, isClose)
 }
 handler.help = ['grupo *abierto / cerrado*']
