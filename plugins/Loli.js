@@ -1,5 +1,5 @@
 
-let RendyGanteng = conn
+
 
 let handler = m => {
       conn.sendFile(m.chat, 'Loli.mp4', '', '✨𝐁𝐨𝐭 𝐀𝐫𝐫𝐨𝐰✨', m)
