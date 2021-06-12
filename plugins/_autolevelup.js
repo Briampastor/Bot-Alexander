@@ -9,7 +9,7 @@ handler.before = m => {
 	if (before !== user.level) m.reply(`
 *Felicitaciones, has subido de nivel🎚️*!
 *${before}* -> *${user.level}*
-Usar *.profile* verificar
+Usar *.perfil* verificar
 	`.trim())
 }
 
