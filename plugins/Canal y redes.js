@@ -12,8 +12,8 @@ http://www.instagram.com/arrow_11012020/
 http://m.youtube.com/channel/UCYHmLosvfftHMmLrlGDwIPg
                                         
 `.trim()) 
-handler.help = ['Canal|Redes']
+handler.help = ['canal|redes']
 handler.tags = ['info']
-handler.command = /^Canal$/^Redes$i
+handler.command = /^canal$/i
 
 module.exports = handler
