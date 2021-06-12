@@ -3,11 +3,11 @@ let handler = async m => m.reply(`
 
 ├┉┉┉┉↯❏ *Instagram:* ❏↯┉┉┉
 
-├┉↯http://www.instagram.com/│arrow_11012020/.                             
+├┉↯http://www.instagram.com/arrow_11012020/.                             
 
 ├┉┉┉┉↯❏  *YouTube:* ❏↯┉┉┉┉
 
-http://m.youtube.com/channel/│UCYHmLosvfftHMmLrlGDwIPg        
+http://m.youtube.com/channel/UCYHmLosvfftHMmLrlGDwIPg        
 
 ╰────❲✨✨✨✨✨✨✨❳────╯
                                         
