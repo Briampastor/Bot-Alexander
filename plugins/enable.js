@@ -25,7 +25,7 @@ let handler = async (m, { conn, usedPrefix, command, text, args, isROwner }) => 
       return m.reply(`
 List option: welcome | delete | public | antilink | antitoxicos | Antitroli | Antispam | antilink2 | autolevelup
 
-──────❲ *✨Ejemplo✨:* ❳────────
+──────❲ *✨Ejemplo✨:* ❳───────
 ├┉↯ ${usedPrefix}enable welcome
 ├┉↯ ${usedPrefix}disable welcome
 `.trim())
