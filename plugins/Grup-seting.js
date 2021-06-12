@@ -4,7 +4,7 @@ let handler  = async (m, { conn, args, usedPrefix, command }) => {
 		'abierto': false,
 		'cerrado': true,
 	}[(args[0] || '')]
-	{m.reply('*Agregado con exito✅*')}
+	{m.reply('*Se abrió con exito✅*')}
 	await conn.updatePresence(m.chat, Presence.composing)
 	if (isClose === undefined)
 		throw `
