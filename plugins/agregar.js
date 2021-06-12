@@ -1,7 +1,7 @@
 let handler = async (m, { conn, text }) => {
-let name = conn.getName(m.sender)
+
   let users = text.split`,`.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').filter(v => v.length > 20)
-{m.reply('*Agregado con exito ${name} ✅*')}
+{m.reply('*Agregado con exito✅*')}
   conn.groupAdd(m.chat, users)
 }
 handler.help = ['agregar', '+'].map(v => 'o' + v + ' @user')
