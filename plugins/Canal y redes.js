@@ -1,15 +1,15 @@
 let handler = async m => m.reply(`
-  ^    ^    ^    ^    ^  
- /A\  /r\  /r\  /o\  /w\ 
-<___><___><___><___><___>
+  ╭────❲ *✨𝐁𝐨𝐭 𝐀𝐫𝐫𝐨𝐰✨* ❳────╮
 
-*BY:* ✨𝐁𝐨𝐭 𝐀𝐫𝐫𝐨𝐰✨
- _*Instagram*_
-http://www.instagram.com/arrow_11012020/
+├┉┉┉┉↯❏ *Instagram:* ❏↯┉┉┉
 
-𝙈𝙮 𝘾𝙝𝙖𝙣𝙚𝙡:
+├┉↯http://www.instagram.com/│arrow_11012020/.                             
 
-http://m.youtube.com/channel/UCYHmLosvfftHMmLrlGDwIPg
+├┉┉┉┉↯❏  *YouTube:* ❏↯┉┉┉┉
+
+http://m.youtube.com/channel/│UCYHmLosvfftHMmLrlGDwIPg        
+
+╰────❲✨✨✨✨✨✨✨❳────╯
                                         
 `.trim()) 
 handler.help = ['canal|redes']
