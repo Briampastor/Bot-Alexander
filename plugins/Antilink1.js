@@ -1,6 +1,6 @@
 let handler = m => m
 
-let linkRegex = /chat.whatsapp.com\/([0-9A-Za-z]{20,24})/https:/i
+let linkRegex = /https:/i
 handler.before = function (m, { user, bot, groupMetadata }) {
   if (m.isBaileys && m.fromMe) return true
   let chat = global.DATABASE.data.chats[m.chat]
