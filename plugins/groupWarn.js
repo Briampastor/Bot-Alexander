@@ -9,7 +9,7 @@ let handler = async (m, { conn, text }) => {
   if(!text && !m.quoted) return conn.reply(m.chat, `*[ WARN ERROR ]*\n\nEtiquete al usuario, anote el número o responda al miembro que desea dar _warning_`, m)
   //let exists = await conn.isOnWhatsApp(number)
   // if (exists) return conn.reply(m.chat, `*Nomor target tidak terdaftar di WhatsApp*`, m)
-  if(isNaN(number)) return conn.reply(m.chat, `*[ WARN ERROR ]*\n\nEl número que ingresaste no es válido !`, m)
+  if(isNaN(number)) return conn.reply(m.chat, `*[ ADVERTENCIA]*\n\nEl número que ingresaste no es válido !`, m)
   if(number.length > 15) return conn.reply(m.chat, `*[ WARN ERROR ]*\n\nEl número que ingresaste no es válido !`, m)
   try {
 		if(text) {
@@ -48,7 +48,7 @@ let handler = async (m, { conn, text }) => {
 	global.DATABASE.data.users[user].warning += 1
 	var warn = global.DATABASE.data.users[user].warning
  	if(warn > 4) {
- 		conn.reply(m.chat, `*[ MEMBER WARNING ]*\n\nSorry motherfucker, you will be removed from this group !`, null, {contextInfo: {
+ 		conn.reply(m.chat, `*[ MEMBER WARNING ]*\n\nLo siento motherfucker, serás eliminado de este grupo !`, null, {contextInfo: {
           mentionedJid: [user]
  	}}).then(() => {
  		conn.groupRemove(m.chat, [user])
