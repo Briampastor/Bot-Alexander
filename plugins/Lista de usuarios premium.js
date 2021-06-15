@@ -11,6 +11,6 @@ let handler = async (m, { conn, text }) => {
 conn.sendMessage(m.chat, `*LISTA PREMIUM*` + `\n` + prem.map(v => '- @' + v.replace(/@.+/, '')).join`\n`, MessageType.extendedText, { contextInfo: { mentionedJid: prem } })
 }
 handler.command = /^(listprem)$/i
-handler.owner = true
-
+handler.owner = false
+handler.admin = true
 module.exports = handler
