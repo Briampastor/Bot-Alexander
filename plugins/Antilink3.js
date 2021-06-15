@@ -7,8 +7,8 @@ handler.before = function (m, { user, bot, groupMetadata }) {
   let isGroupLink = linkRegex.exec(m.text)
 
   if (chat.antiLink && isGroupLink) {
-    m.reply('*AdiÃ³sðŸ‘‹,rompiste las reglas serÃ¡s exterminado....!!*')
-  m.reply('*tienes 3 segundos para eliminar el link...!!!!!!*')
+    m.reply('*Hasta la vista baby👋,rompiste las reglas serás exterminado....!!*')
+  m.reply('*tienes 3 segundos para eliminar el link y retractarte...!!!!*')
     m.reply('*3!!*')
     m.reply('*2!!*')
     m.reply('*1!!*')
