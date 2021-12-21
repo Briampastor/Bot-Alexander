@@ -10,7 +10,7 @@
 > pkg install nodejs -y
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
-> git clone https://github.com/Nurutomo/Bot-Alexander
+> git clone https://github.com/Briampastor/Bot-Alexander
 > cd Bot-Alexander
 > npm install
 ```
@@ -25,8 +25,8 @@
 * Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php) (if nulis want work,  checklist columns 1,2,3,5,6)
 
 ```bash
-> git clone https://github.com/Nurutomo/wabot-aq
-> cd wabot-aq
+> git clone https://github.com/Briampastor/Bot-Alexander
+> cd Bot-Alexander
 > npm install
 ```
 
@@ -94,3 +94,4 @@ conn.logger.level = 'debug'
 #### Powered By : [`Arrow`](https://api.xteam.xyz)
 
 #### Author / Creator : [`Arrow_OG`]
+WHATSAPP: https://wa.me/+51925782208
